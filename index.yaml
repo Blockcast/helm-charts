@@ -3,7 +3,17 @@ entries:
   ocs:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-21T20:38:44.442536-08:00"
+    created: "2020-11-21T21:02:02.549919-08:00"
+    description: A Helm chart for Kubernetes
+    digest: c698f7c8ad0e2dbe593a605d86fdf4662b961fce94573de854a4726a0c83802f
+    name: ocs
+    type: application
+    urls:
+    - orc8r/ocs-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-11-21T21:02:02.549445-08:00"
     description: A Helm chart for Kubernetes
     digest: ece3ff25937e79702cbc34efc5ed59ec02034ef55a944f755d7ac83eb34e2ac7
     name: ocs
@@ -13,7 +23,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-21T20:38:44.442102-08:00"
+    created: "2020-11-21T21:02:02.548237-08:00"
     description: A Helm chart for Kubernetes
     digest: 03947d1171e6f59c57944d873da8a533aa65dcff176ec446b06884f80d11cdbd
     name: ocs
@@ -23,7 +33,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-21T20:38:44.441722-08:00"
+    created: "2020-11-21T21:02:02.546998-08:00"
     description: A Helm chart for Kubernetes
     digest: e165323e5546ea9094a96d4b512506af2331bade49bedc87d9b3ce090dfc6efb
     name: ocs
@@ -33,7 +43,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-21T20:38:44.441319-08:00"
+    created: "2020-11-21T21:02:02.54596-08:00"
     description: A Helm chart for Kubernetes
     digest: d6291b5d3a14ee2432b7d5d78f4ee488d82b0039240bbf1d04eef68471dcc7a7
     name: ocs
@@ -44,7 +54,42 @@ entries:
   orc8r:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.500071-08:00"
+    created: "2020-11-21T21:02:02.617744-08:00"
+    dependencies:
+    - condition: secrets.create
+      name: secrets
+      repository: ""
+      version: 0.1.5
+    - condition: metrics.enabled
+      name: metrics
+      repository: ""
+      version: 1.4.15
+    - condition: nms.enabled
+      name: nms
+      repository: ""
+      version: 0.1.8
+    - condition: logging.enabled
+      name: logging
+      repository: ""
+      version: 0.1.10
+    - condition: ocs.enabled
+      name: ocs
+      repository: ""
+      version: 0.0.5
+    description: A Helm chart for magma orchestrator
+    digest: 2b4a1b7132f51202ba8b024098f995f64b870031f26f68ffb2022061c8820028
+    keywords:
+    - magma
+    - or8cr
+    name: orc8r
+    sources:
+    - https://github.com/facebookincubator/magma
+    urls:
+    - orc8r/orc8r-1.4.47.tgz
+    version: 1.4.47
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-11-21T21:02:02.6141-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -79,7 +124,7 @@ entries:
     version: 1.4.46
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.49464-08:00"
+    created: "2020-11-21T21:02:02.609356-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -114,7 +159,7 @@ entries:
     version: 1.4.45
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.490992-08:00"
+    created: "2020-11-21T21:02:02.604995-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -149,7 +194,7 @@ entries:
     version: 1.4.44
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.487316-08:00"
+    created: "2020-11-21T21:02:02.600395-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -184,7 +229,7 @@ entries:
     version: 1.4.43
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.483319-08:00"
+    created: "2020-11-21T21:02:02.596117-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -215,7 +260,7 @@ entries:
     version: 1.4.42
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.479286-08:00"
+    created: "2020-11-21T21:02:02.592064-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -246,7 +291,7 @@ entries:
     version: 1.4.41
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.475107-08:00"
+    created: "2020-11-21T21:02:02.58724-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -277,7 +322,7 @@ entries:
     version: 1.4.40
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.471669-08:00"
+    created: "2020-11-21T21:02:02.582585-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -308,7 +353,7 @@ entries:
     version: 1.4.39
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.46717-08:00"
+    created: "2020-11-21T21:02:02.578123-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -339,7 +384,7 @@ entries:
     version: 1.4.38
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.462883-08:00"
+    created: "2020-11-21T21:02:02.573683-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -370,7 +415,7 @@ entries:
     version: 1.4.37
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.459506-08:00"
+    created: "2020-11-21T21:02:02.569256-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -401,7 +446,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.455051-08:00"
+    created: "2020-11-21T21:02:02.564125-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -432,7 +477,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.451354-08:00"
+    created: "2020-11-21T21:02:02.559821-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -463,7 +508,7 @@ entries:
     version: 0.0.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-21T20:38:44.447599-08:00"
+    created: "2020-11-21T21:02:02.555296-08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -495,7 +540,7 @@ entries:
   orc8rlib:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-11-21T20:38:44.500274-08:00"
+    created: "2020-11-21T21:02:02.618252-08:00"
     description: A Helm library chart for orchestrator modules
     digest: b2d4cebb46b2fe65199c689e8bfc20ecf269302e6cd0a70ccf1d7874f8acbc3c
     keywords:
@@ -508,4 +553,4 @@ entries:
     urls:
     - orc8r/orc8rlib-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-21T20:38:44.440788-08:00"
+generated: "2020-11-21T21:02:02.544868-08:00"
