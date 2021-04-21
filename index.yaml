@@ -3,13 +3,13 @@ entries:
   blockcast-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.92032-07:00"
+    created: "2021-04-22T04:09:09.844226-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../../helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for blockcast's cache module
-    digest: b9e52d8d64ba869e3472824860a8665ae24244ecee76a768dbd5ee1add0f063e
+    digest: 083f3853680d8b0a7b7f7be2b937c6f69828f2a7f724fb6ccc4f4d18405906d4
     keywords:
     - magma
     - or8cr
@@ -22,7 +22,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.919168-07:00"
+    created: "2021-04-22T04:09:09.842522-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../../helm/orc8rlib
@@ -41,7 +41,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.918163-07:00"
+    created: "2021-04-22T04:09:09.840471-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../../helm/orc8rlib
@@ -61,13 +61,13 @@ entries:
   cwf-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.921643-07:00"
+    created: "2021-04-22T04:09:09.845885-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's cwf module
-    digest: 8819b098bb2996a4ffbb83eb1c2f76dc2ee9201e9e50faea142d2dc4ddf5ca8f
+    digest: d32fc910e772c68d1e9f3f4f16752fc69980c4c67b9ac73ab40490bc6808276e
     keywords:
     - magma
     - or8cr
@@ -80,7 +80,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.920974-07:00"
+    created: "2021-04-22T04:09:09.8452-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -100,13 +100,13 @@ entries:
   feg-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.924317-07:00"
+    created: "2021-04-22T04:09:09.849061-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's feg module
-    digest: c25f2db408203a9431d0b395616c938daec400f63ea0384897b43b523abf8bf4
+    digest: 6532a28f8dde52c1d1f2dbf106e8ae2884bcf4beb8f8d2b1d2968f3cb6f2dcfb
     keywords:
     - magma
     - or8cr
@@ -119,7 +119,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.922642-07:00"
+    created: "2021-04-22T04:09:09.847487-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -139,7 +139,26 @@ entries:
   lte-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.927105-07:00"
+    created: "2021-04-22T04:09:09.854374-07:00"
+    dependencies:
+    - name: orc8rlib
+      repository: file://../../../../orc8r/cloud/helm/orc8rlib
+      version: 0.1.2
+    description: A Helm chart for magma orchestrator's lte module
+    digest: 00323329b8db712e747344725b9b7387cb59694e96a665a14d9437d2a009d112
+    keywords:
+    - magma
+    - or8cr
+    - lte-orc8r
+    name: lte-orc8r
+    sources:
+    - https://github.com/magma/magma
+    urls:
+    - orc8r/lte-orc8r-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-04-22T04:09:09.853567-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -158,7 +177,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.926297-07:00"
+    created: "2021-04-22T04:09:09.852253-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../../helm/orc8rlib
@@ -177,7 +196,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.925266-07:00"
+    created: "2021-04-22T04:09:09.85074-07:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -197,7 +216,7 @@ entries:
   ocs:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.964855-07:00"
+    created: "2021-04-22T04:09:09.940415-07:00"
     description: A Helm chart for Kubernetes
     digest: a9414a149fb02afa8602d58379360203a10baee86776d9656c533f2460de2bd6
     name: ocs
@@ -207,7 +226,7 @@ entries:
     version: 0.1.46
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.96423-07:00"
+    created: "2021-04-22T04:09:09.938933-07:00"
     description: A Helm chart for Kubernetes
     digest: f9062d16b8b0a4d4a371821464f475a3db3531815348c5a6bde32adbdf31c6d2
     name: ocs
@@ -217,7 +236,7 @@ entries:
     version: 0.1.45
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.963013-07:00"
+    created: "2021-04-22T04:09:09.937364-07:00"
     description: A Helm chart for Kubernetes
     digest: 86f07460b67d4fb34eda74d746c2e2f6c2e6c827872fe9ef894c8c2318acc1fa
     name: ocs
@@ -227,7 +246,7 @@ entries:
     version: 0.1.44
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.962367-07:00"
+    created: "2021-04-22T04:09:09.935773-07:00"
     description: A Helm chart for Kubernetes
     digest: 628d36511dec50f4720e11368505cceeb184a02bb9e7f791f505e1c5d8660e5d
     name: ocs
@@ -237,9 +256,9 @@ entries:
     version: 0.1.43
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.961752-07:00"
+    created: "2021-04-22T04:09:09.934011-07:00"
     description: A Helm chart for Kubernetes
-    digest: f6a7b9e0d313044b9bf155602bd2c723b550566566f4c1f6f97439550fd9c75b
+    digest: 5f70bc78387b81133c6d2358130c74cd7049154bdce65aa01199ee096864fb56
     name: ocs
     type: application
     urls:
@@ -247,7 +266,7 @@ entries:
     version: 0.1.42
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.960867-07:00"
+    created: "2021-04-22T04:09:09.932801-07:00"
     description: A Helm chart for Kubernetes
     digest: 76d63979fcaa3b9ef43a375fae9390e4edfd2fe4ede5c2e8fed5df7de9747d4a
     name: ocs
@@ -257,7 +276,7 @@ entries:
     version: 0.1.41
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.960001-07:00"
+    created: "2021-04-22T04:09:09.930375-07:00"
     description: A Helm chart for Kubernetes
     digest: 46ef13762b477fc5c5399b7609bdedf05ab1b879e9e7d024079b8ab5683a151b
     name: ocs
@@ -267,7 +286,7 @@ entries:
     version: 0.1.40
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.958644-07:00"
+    created: "2021-04-22T04:09:09.926086-07:00"
     description: A Helm chart for Kubernetes
     digest: c68ffff737c16258b0668265dbf0e4c52baea8d15c624c0e3f716f3b682a5d07
     name: ocs
@@ -277,7 +296,7 @@ entries:
     version: 0.1.39
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.957775-07:00"
+    created: "2021-04-22T04:09:09.924456-07:00"
     description: A Helm chart for Kubernetes
     digest: 761a90a7a299b10ca665758d0f6fdbf877cf72707f8547a7f8b6d57ce2362762
     name: ocs
@@ -287,7 +306,7 @@ entries:
     version: 0.1.38
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.956898-07:00"
+    created: "2021-04-22T04:09:09.922598-07:00"
     description: A Helm chart for Kubernetes
     digest: bbf502465cbe5bfe759f4abf5ce60b897882cf553da659e5246aa391015a2396
     name: ocs
@@ -297,7 +316,7 @@ entries:
     version: 0.1.37
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.956038-07:00"
+    created: "2021-04-22T04:09:09.920712-07:00"
     description: A Helm chart for Kubernetes
     digest: 342d8dfa7cff144672f05f1c004406d856d56b800eddb6a16341d41aec379c7d
     name: ocs
@@ -307,7 +326,7 @@ entries:
     version: 0.1.36
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.955163-07:00"
+    created: "2021-04-22T04:09:09.918944-07:00"
     description: A Helm chart for Kubernetes
     digest: 88d3dfdc0c12eeb78e71ca5b23bd649eeec4e99d555cd15e9360111987d0e643
     name: ocs
@@ -317,7 +336,7 @@ entries:
     version: 0.1.35
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.954211-07:00"
+    created: "2021-04-22T04:09:09.917181-07:00"
     description: A Helm chart for Kubernetes
     digest: 29646d55b83d225485e7618f255d5d3c1255dc3282fd0028b26365d206a7f878
     name: ocs
@@ -327,7 +346,7 @@ entries:
     version: 0.1.34
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.952933-07:00"
+    created: "2021-04-22T04:09:09.915901-07:00"
     description: A Helm chart for Kubernetes
     digest: 047d897e08b4fad1e8ed8866d79bc9c080e9cb50133f0245b9a3173be61bbba6
     name: ocs
@@ -337,7 +356,7 @@ entries:
     version: 0.1.33
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.952152-07:00"
+    created: "2021-04-22T04:09:09.913747-07:00"
     description: A Helm chart for Kubernetes
     digest: 5f678ee1cb8c009b878ebbfa03e6681ac11c5533b3e2799e7b018c74751427f7
     name: ocs
@@ -347,7 +366,7 @@ entries:
     version: 0.1.32
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.951358-07:00"
+    created: "2021-04-22T04:09:09.911468-07:00"
     description: A Helm chart for Kubernetes
     digest: 6989583ca5327ced8d15d2f174a36fdcbf2cc2cc46136069a69fc4f13c539890
     name: ocs
@@ -357,7 +376,7 @@ entries:
     version: 0.1.31
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.950591-07:00"
+    created: "2021-04-22T04:09:09.909937-07:00"
     description: A Helm chart for Kubernetes
     digest: f0b3d3668e2f36d47df33c01c037d71e5a357f6523ed4694bc4433a25d8315d3
     name: ocs
@@ -367,7 +386,7 @@ entries:
     version: 0.1.30
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.949331-07:00"
+    created: "2021-04-22T04:09:09.906902-07:00"
     description: A Helm chart for Kubernetes
     digest: ea92a555dbe712e07c00782909dff591cacf43643c8778b076886bc586ba14c1
     name: ocs
@@ -377,7 +396,7 @@ entries:
     version: 0.1.29
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.948554-07:00"
+    created: "2021-04-22T04:09:09.905354-07:00"
     description: A Helm chart for Kubernetes
     digest: 72a376c2fae304a738cded6edc2a08235ded3d0a97cff4d76fdcfd2a7b84ff16
     name: ocs
@@ -387,7 +406,7 @@ entries:
     version: 0.1.28
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.947802-07:00"
+    created: "2021-04-22T04:09:09.903714-07:00"
     description: A Helm chart for Kubernetes
     digest: 42010733c19b6db26c387507f9ce86862407eff6884bd49a93865ccb850b9464
     name: ocs
@@ -397,7 +416,7 @@ entries:
     version: 0.1.27
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.947061-07:00"
+    created: "2021-04-22T04:09:09.90184-07:00"
     description: A Helm chart for Kubernetes
     digest: c48eb45863d26cf44260e93e5d8e120036012887e5b324fb98017205c974da80
     name: ocs
@@ -407,7 +426,7 @@ entries:
     version: 0.1.26
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.946322-07:00"
+    created: "2021-04-22T04:09:09.900076-07:00"
     description: A Helm chart for Kubernetes
     digest: 9d011f7a4fa68d58d88ea57f3d30d36fbda675204db752b6b9f60ace67fd1db4
     name: ocs
@@ -417,7 +436,7 @@ entries:
     version: 0.1.25
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.945585-07:00"
+    created: "2021-04-22T04:09:09.898295-07:00"
     description: A Helm chart for Kubernetes
     digest: f2f8726b23fbd38896493c37bea782443f842700e89a2b1f0885d35708d4d3af
     name: ocs
@@ -427,7 +446,7 @@ entries:
     version: 0.1.24
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.944737-07:00"
+    created: "2021-04-22T04:09:09.896258-07:00"
     description: A Helm chart for Kubernetes
     digest: eafe230ba3a48d256f16a86b562a277331dbe753ea568421dcf28940acbfe294
     name: ocs
@@ -437,7 +456,7 @@ entries:
     version: 0.1.23
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.943393-07:00"
+    created: "2021-04-22T04:09:09.894459-07:00"
     description: A Helm chart for Kubernetes
     digest: a70394526166796e3ea32ff2003b73b6d9d638ba887b0403650238d70d64d3c2
     name: ocs
@@ -447,7 +466,7 @@ entries:
     version: 0.1.22
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.942582-07:00"
+    created: "2021-04-22T04:09:09.892145-07:00"
     description: A Helm chart for Kubernetes
     digest: cf5c05e6fa6a12e8f6a5d845f6143f515195d928504dcfcbb2c10523a591e19e
     name: ocs
@@ -457,7 +476,7 @@ entries:
     version: 0.1.21
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.941842-07:00"
+    created: "2021-04-22T04:09:09.890524-07:00"
     description: A Helm chart for Kubernetes
     digest: 39bf9188e4b1717ddc63ec6f7bc70fde5796ccd6ae7e468931f7d73651fc7f1e
     name: ocs
@@ -467,7 +486,7 @@ entries:
     version: 0.1.20
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.940624-07:00"
+    created: "2021-04-22T04:09:09.885833-07:00"
     description: A Helm chart for Kubernetes
     digest: de87fb33618ef5a6666d35373fec9931b7de01cc670ff044a079d22a3d16aea6
     name: ocs
@@ -477,7 +496,7 @@ entries:
     version: 0.1.19
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.94006-07:00"
+    created: "2021-04-22T04:09:09.884107-07:00"
     description: A Helm chart for Kubernetes
     digest: 625340866acb0ee7e15b499fbf763e61be59f003eb2b4b92fd14c9abb1dcee3e
     name: ocs
@@ -487,7 +506,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.939299-07:00"
+    created: "2021-04-22T04:09:09.882231-07:00"
     description: A Helm chart for Kubernetes
     digest: ee7033e837b0fcfb939a6e93290ebd31199cfc9a4a24c75ef51630cf0b17a0af
     name: ocs
@@ -497,7 +516,7 @@ entries:
     version: 0.1.17
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.938565-07:00"
+    created: "2021-04-22T04:09:09.880414-07:00"
     description: A Helm chart for Kubernetes
     digest: 01c62abf2a82b52cc249129999da368746e06adac965d3f706460d54c5e21efd
     name: ocs
@@ -507,7 +526,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.937813-07:00"
+    created: "2021-04-22T04:09:09.87832-07:00"
     description: A Helm chart for Kubernetes
     digest: a82470ae86b4e7aa1be553c16cc13b0d5df3add94cf0b2464434b95ecdcbd953
     name: ocs
@@ -517,7 +536,7 @@ entries:
     version: 0.1.15
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.937094-07:00"
+    created: "2021-04-22T04:09:09.87668-07:00"
     description: A Helm chart for Kubernetes
     digest: 62200af607ae91991bd2ecc6e6f9890e1f200797fd7e0346423294899f85cfaa
     name: ocs
@@ -527,7 +546,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.936293-07:00"
+    created: "2021-04-22T04:09:09.87512-07:00"
     description: A Helm chart for Kubernetes
     digest: 6c842fde1d7bb587e76d163c6da5e63b2ede44a6645ec37c8648f9bf86155353
     name: ocs
@@ -537,7 +556,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.935462-07:00"
+    created: "2021-04-22T04:09:09.87378-07:00"
     description: A Helm chart for Kubernetes
     digest: f8cf833ad60630d748f886ca2ca355932d9f2d7727774137736014584f40fc17
     name: ocs
@@ -547,7 +566,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.934655-07:00"
+    created: "2021-04-22T04:09:09.872025-07:00"
     description: A Helm chart for Kubernetes
     digest: 85b32b2a696ee46500e93b0c72904c79548783cbbc7428074cebf3ae5c002c0d
     name: ocs
@@ -557,7 +576,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.933091-07:00"
+    created: "2021-04-22T04:09:09.870379-07:00"
     description: A Helm chart for Kubernetes
     digest: e10433cc2291ce5179bb1ec5b2ccbab730dfb107e03860a9eeca530717e14de4
     name: ocs
@@ -567,7 +586,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.968446-07:00"
+    created: "2021-04-22T04:09:09.949547-07:00"
     description: A Helm chart for Kubernetes
     digest: e586b7218e75d5dcb3c4f5caa716e4cfee18cafa6c99b07ba057e9be0d0f6b96
     name: ocs
@@ -577,7 +596,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.967761-07:00"
+    created: "2021-04-22T04:09:09.947702-07:00"
     description: A Helm chart for Kubernetes
     digest: c52b832e7cad6ca8decd6ac2b32dcf5a73293bb3291124f766d5c2ac796935a7
     name: ocs
@@ -587,7 +606,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.967039-07:00"
+    created: "2021-04-22T04:09:09.945422-07:00"
     description: A Helm chart for Kubernetes
     digest: de121013e0d4784c166402665861fe217784e2c4f953fa79c4ed668355e77894
     name: ocs
@@ -597,7 +616,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2021-04-20T04:55:38.966313-07:00"
+    created: "2021-04-22T04:09:09.943813-07:00"
     description: A Helm chart for Kubernetes
     digest: b3cc483b10e15f8ddd67ab320ca8b4cb0a4e733c5de41113ff8cb71776c6a2e0
     name: ocs
@@ -607,7 +626,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.96552-07:00"
+    created: "2021-04-22T04:09:09.941957-07:00"
     description: A Helm chart for Kubernetes
     digest: 4a24e220f2df80685864dd776288f8cc38d59be6408395d0a3c00d76c2aa89fd
     name: ocs
@@ -617,7 +636,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.959141-07:00"
+    created: "2021-04-22T04:09:09.927573-07:00"
     description: A Helm chart for Kubernetes
     digest: c288be35707d5a6d91074e5f4cf5654da9356fdd015aabadc6d4a96144ab065a
     name: ocs
@@ -627,7 +646,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.94982-07:00"
+    created: "2021-04-22T04:09:09.908306-07:00"
     description: A Helm chart for Kubernetes
     digest: 4fa2d35d2932f2098667576f296185d669b8c30cc8811d1af92d162d5a658392
     name: ocs
@@ -637,7 +656,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.94111-07:00"
+    created: "2021-04-22T04:09:09.888177-07:00"
     description: A Helm chart for Kubernetes
     digest: 23ed41992d5e3666d34d56934ef3d5df8623f4981530212717724d2e666692be
     name: ocs
@@ -647,7 +666,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.932237-07:00"
+    created: "2021-04-22T04:09:09.868102-07:00"
     description: A Helm chart for Kubernetes
     digest: 48811b06bb821f996ec7d81ace50e654d49503fa035d3d4a80968f367c54911f
     name: ocs
@@ -657,7 +676,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.931759-07:00"
+    created: "2021-04-22T04:09:09.86683-07:00"
     description: A Helm chart for Kubernetes
     digest: 4cd4f9ccc77ebcb4d95f26ad5196ae10d4a1e05bf2a86ca1b319af90ce053dfa
     name: ocs
@@ -667,7 +686,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.93133-07:00"
+    created: "2021-04-22T04:09:09.865532-07:00"
     description: A Helm chart for Kubernetes
     digest: 1dfb95013603bdc66e5d699119e13eaa7229359e85732d15e44324cc95e8dcad
     name: ocs
@@ -677,7 +696,7 @@ entries:
     version: 0.0.9
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.930907-07:00"
+    created: "2021-04-22T04:09:09.864251-07:00"
     description: A Helm chart for Kubernetes
     digest: aa0d6891e171f5c144c88429ba48c3064e23510819bd62a398184c2612eb4658
     name: ocs
@@ -687,7 +706,7 @@ entries:
     version: 0.0.8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.93047-07:00"
+    created: "2021-04-22T04:09:09.862999-07:00"
     description: A Helm chart for Kubernetes
     digest: dbd851734b51d93c5e68a4b472afc6ff7842ef25548c6bf364a5a4610e4ba4b2
     name: ocs
@@ -697,7 +716,7 @@ entries:
     version: 0.0.7
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.929967-07:00"
+    created: "2021-04-22T04:09:09.86175-07:00"
     description: A Helm chart for Kubernetes
     digest: 1a46fab6e557a943365fb724d421d278dda7ebe6a463384007ac7ab6fed457cc
     name: ocs
@@ -707,7 +726,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.929375-07:00"
+    created: "2021-04-22T04:09:09.860629-07:00"
     description: A Helm chart for Kubernetes
     digest: c698f7c8ad0e2dbe593a605d86fdf4662b961fce94573de854a4726a0c83802f
     name: ocs
@@ -717,7 +736,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.928917-07:00"
+    created: "2021-04-22T04:09:09.8594-07:00"
     description: A Helm chart for Kubernetes
     digest: ece3ff25937e79702cbc34efc5ed59ec02034ef55a944f755d7ac83eb34e2ac7
     name: ocs
@@ -727,7 +746,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.92847-07:00"
+    created: "2021-04-22T04:09:09.858167-07:00"
     description: A Helm chart for Kubernetes
     digest: 03947d1171e6f59c57944d873da8a533aa65dcff176ec446b06884f80d11cdbd
     name: ocs
@@ -737,7 +756,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.928006-07:00"
+    created: "2021-04-22T04:09:09.856948-07:00"
     description: A Helm chart for Kubernetes
     digest: e165323e5546ea9094a96d4b512506af2331bade49bedc87d9b3ce090dfc6efb
     name: ocs
@@ -747,7 +766,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-20T04:55:38.927557-07:00"
+    created: "2021-04-22T04:09:09.85541-07:00"
     description: A Helm chart for Kubernetes
     digest: d6291b5d3a14ee2432b7d5d78f4ee488d82b0039240bbf1d04eef68471dcc7a7
     name: ocs
@@ -758,7 +777,41 @@ entries:
   orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.084041-07:00"
+    created: "2021-04-22T04:09:10.102036-07:00"
+    dependencies:
+    - condition: secrets.create
+      name: secrets
+      repository: ""
+      version: 0.1.10
+    - condition: metrics.enabled
+      name: metrics
+      repository: ""
+      version: 1.4.21
+    - condition: nms.enabled
+      name: nms
+      repository: ""
+      version: 0.1.8
+    - condition: logging.enabled
+      name: logging
+      repository: ""
+      version: 0.1.10
+    - name: orc8rlib
+      repository: file://../orc8rlib
+      version: 0.1.2
+    description: A Helm chart for magma orchestrator
+    digest: 59443cf252c83850baa8258057635c58ba3f68ca05725081ff2e55494d335dff
+    keywords:
+    - magma
+    - or8cr
+    name: orc8r
+    sources:
+    - https://github.com/magma/magma
+    urls:
+    - orc8r/orc8r-1.5.16.tgz
+    version: 1.5.16
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-04-22T04:09:10.094777-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -792,7 +845,7 @@ entries:
     version: 1.5.15
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.076606-07:00"
+    created: "2021-04-22T04:09:10.08778-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -826,7 +879,7 @@ entries:
     version: 1.5.14
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.070662-07:00"
+    created: "2021-04-22T04:09:10.078903-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -860,7 +913,7 @@ entries:
     version: 1.5.13
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.063534-07:00"
+    created: "2021-04-22T04:09:10.07121-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -891,7 +944,7 @@ entries:
     version: 1.4.56
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.060279-07:00"
+    created: "2021-04-22T04:09:10.066134-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -922,7 +975,7 @@ entries:
     version: 1.4.55
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.056212-07:00"
+    created: "2021-04-22T04:09:10.061406-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -953,7 +1006,7 @@ entries:
     version: 1.4.54
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.052699-07:00"
+    created: "2021-04-22T04:09:10.055599-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -984,7 +1037,7 @@ entries:
     version: 1.4.53
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.048862-07:00"
+    created: "2021-04-22T04:09:10.051349-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1019,7 +1072,7 @@ entries:
     version: 1.4.52
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.044628-07:00"
+    created: "2021-04-22T04:09:10.046457-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1054,7 +1107,7 @@ entries:
     version: 1.4.51
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.040742-07:00"
+    created: "2021-04-22T04:09:10.040946-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1089,7 +1142,7 @@ entries:
     version: 1.4.50
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.036228-07:00"
+    created: "2021-04-22T04:09:10.036395-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1124,7 +1177,7 @@ entries:
     version: 1.4.49
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.03226-07:00"
+    created: "2021-04-22T04:09:10.030843-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1159,7 +1212,7 @@ entries:
     version: 1.4.48
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.028334-07:00"
+    created: "2021-04-22T04:09:10.026267-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1194,7 +1247,7 @@ entries:
     version: 1.4.47
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.023774-07:00"
+    created: "2021-04-22T04:09:10.021458-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1229,7 +1282,7 @@ entries:
     version: 1.4.46
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.019702-07:00"
+    created: "2021-04-22T04:09:10.016146-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1264,7 +1317,7 @@ entries:
     version: 1.4.45
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.015033-07:00"
+    created: "2021-04-22T04:09:10.011366-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1299,7 +1352,7 @@ entries:
     version: 1.4.44
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.010992-07:00"
+    created: "2021-04-22T04:09:10.006197-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1334,7 +1387,7 @@ entries:
     version: 1.4.43
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.007159-07:00"
+    created: "2021-04-22T04:09:10.001166-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1365,7 +1418,7 @@ entries:
     version: 1.4.42
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:39.002912-07:00"
+    created: "2021-04-22T04:09:09.995508-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1396,7 +1449,7 @@ entries:
     version: 1.4.41
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.999365-07:00"
+    created: "2021-04-22T04:09:09.990261-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1427,7 +1480,7 @@ entries:
     version: 1.4.40
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.99564-07:00"
+    created: "2021-04-22T04:09:09.985106-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1458,7 +1511,7 @@ entries:
     version: 1.4.39
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.991573-07:00"
+    created: "2021-04-22T04:09:09.979827-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1489,7 +1542,7 @@ entries:
     version: 1.4.38
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.988083-07:00"
+    created: "2021-04-22T04:09:09.97317-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1520,7 +1573,7 @@ entries:
     version: 1.4.37
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.98447-07:00"
+    created: "2021-04-22T04:09:09.96697-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1551,7 +1604,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.980132-07:00"
+    created: "2021-04-22T04:09:09.962185-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1582,7 +1635,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.976442-07:00"
+    created: "2021-04-22T04:09:09.95819-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1613,7 +1666,7 @@ entries:
     version: 0.0.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-20T04:55:38.972214-07:00"
+    created: "2021-04-22T04:09:09.954317-07:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -1645,7 +1698,7 @@ entries:
   orc8rlib:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-04-20T04:55:39.084682-07:00"
+    created: "2021-04-22T04:09:10.103656-07:00"
     description: A Helm library chart for orchestrator modules
     digest: 21f054c26490f3bf99313d9dec15f051e10d79b0d9d764f5068e4f711ec9d17e
     keywords:
@@ -1660,7 +1713,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-04-20T04:55:39.084308-07:00"
+    created: "2021-04-22T04:09:10.102616-07:00"
     description: A Helm library chart for orchestrator modules
     digest: b2d4cebb46b2fe65199c689e8bfc20ecf269302e6cd0a70ccf1d7874f8acbc3c
     keywords:
@@ -1673,4 +1726,4 @@ entries:
     urls:
     - orc8r/orc8rlib-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-20T04:55:38.916939-07:00"
+generated: "2021-04-22T04:09:09.838109-07:00"
