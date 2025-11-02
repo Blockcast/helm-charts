@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  cdn-gateway:
+  - apiVersion: v2
+    appVersion: 1.6.16
+    created: "2025-11-02T06:58:44.056145744Z"
+    description: Blockcast CDN Gateway
+    digest: 7ddd3c05371b6efda58b1e3b75a50561687a5ddfd75daf9e4ae283af40142919
+    name: cdn-gateway
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/cdn-gateway-1.6.16.tgz
+    version: 1.6.16
+generated: "2025-11-02T06:58:44.055454273Z"
