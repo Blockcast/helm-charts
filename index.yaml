@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   cdn-gateway:
   - apiVersion: v2
+    appVersion: 1.6.28
+    created: "2025-11-11T14:05:57.859270061Z"
+    description: Blockcast CDN Gateway
+    digest: 4660bf6e87c7578ad0d2acd52a47977d08933b3fe6419e684d988013ac37e2e4
+    name: cdn-gateway
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/cdn-gateway-1.6.28.tgz
+    version: 1.6.28
+  - apiVersion: v2
     appVersion: 1.6.27
-    created: "2025-11-11T10:51:26.715012688Z"
+    created: "2025-11-11T14:05:57.8587756Z"
     description: Blockcast CDN Gateway
     digest: ce16bea59f8219a45553ab7e65772970bc0b75ba55c828e06f942ef07b9b1ea7
     name: cdn-gateway
@@ -13,7 +23,7 @@ entries:
     version: 1.6.27
   - apiVersion: v2
     appVersion: 1.6.26
-    created: "2025-11-11T10:51:26.714497289Z"
+    created: "2025-11-11T14:05:57.858272423Z"
     description: Blockcast CDN Gateway
     digest: 9b9971f082325f75900a956c381ccce1ee6e9b67951c488f98595c66f593a182
     name: cdn-gateway
@@ -23,7 +33,7 @@ entries:
     version: 1.6.26
   - apiVersion: v2
     appVersion: 1.6.25
-    created: "2025-11-11T10:51:26.713990175Z"
+    created: "2025-11-11T14:05:57.85778185Z"
     description: Blockcast CDN Gateway
     digest: c728c4e1b7aa400359a5f99d6e189619bda8701da7f319f1be04dd36b9c7a2cd
     name: cdn-gateway
@@ -33,7 +43,7 @@ entries:
     version: 1.6.25
   - apiVersion: v2
     appVersion: 1.6.24
-    created: "2025-11-11T10:51:26.713481518Z"
+    created: "2025-11-11T14:05:57.857278603Z"
     description: Blockcast CDN Gateway
     digest: 66b27a85476b0bfb7b0919be6829e47bf7bd8ddf48efb4417167f19455385d64
     name: cdn-gateway
@@ -43,7 +53,7 @@ entries:
     version: 1.6.24
   - apiVersion: v2
     appVersion: 1.6.23
-    created: "2025-11-11T10:51:26.712931875Z"
+    created: "2025-11-11T14:05:57.856803128Z"
     description: Blockcast CDN Gateway
     digest: 71e967672b3faa7510b47b0ce93e208933dfdb935eab371c083fd3ea246919a6
     name: cdn-gateway
@@ -53,7 +63,7 @@ entries:
     version: 1.6.23
   - apiVersion: v2
     appVersion: 1.6.22
-    created: "2025-11-11T10:51:26.712387171Z"
+    created: "2025-11-11T14:05:57.856296755Z"
     description: Blockcast CDN Gateway
     digest: 32a6570d456e6ce93cedd5f68d9944f3c147b2c9d46abc78fafa59a214608eef
     name: cdn-gateway
@@ -63,7 +73,7 @@ entries:
     version: 1.6.22
   - apiVersion: v2
     appVersion: 1.6.21
-    created: "2025-11-11T10:51:26.711085004Z"
+    created: "2025-11-11T14:05:57.855825587Z"
     description: Blockcast CDN Gateway
     digest: 255ff1e027f385d5360bd491cc7c71c11671ff64ed664091d5f0c3a00e4e56db
     name: cdn-gateway
@@ -73,7 +83,7 @@ entries:
     version: 1.6.21
   - apiVersion: v2
     appVersion: 1.6.20
-    created: "2025-11-11T10:51:26.710294613Z"
+    created: "2025-11-11T14:05:57.85530075Z"
     description: Blockcast CDN Gateway
     digest: 26ab6839476e4da92b710114562e4b2ae755c5908d37f2eea71ba2c7ba4da859
     name: cdn-gateway
@@ -83,7 +93,7 @@ entries:
     version: 1.6.20
   - apiVersion: v2
     appVersion: 1.6.19
-    created: "2025-11-11T10:51:26.709819709Z"
+    created: "2025-11-11T14:05:57.854761386Z"
     description: Blockcast CDN Gateway
     digest: ab53566d401c2168b540bddb3cfd30ed28350c126c0f14e434fc8f21848c437f
     name: cdn-gateway
@@ -93,7 +103,7 @@ entries:
     version: 1.6.19
   - apiVersion: v2
     appVersion: 1.6.18
-    created: "2025-11-11T10:51:26.709350085Z"
+    created: "2025-11-11T14:05:57.8532867Z"
     description: Blockcast CDN Gateway
     digest: b2bb143de9a158b2bf1a442b5b133282e902674b22ed67ec14a2e77cd09f8100
     name: cdn-gateway
@@ -103,7 +113,7 @@ entries:
     version: 1.6.18
   - apiVersion: v2
     appVersion: 1.6.17
-    created: "2025-11-11T10:51:26.708867226Z"
+    created: "2025-11-11T14:05:57.852811235Z"
     description: Blockcast CDN Gateway
     digest: bc25e48b1f15fc90e0eb123482fe7082aeaf135a37750cc2e96d26d7d9a5ea70
     name: cdn-gateway
@@ -113,7 +123,7 @@ entries:
     version: 1.6.17
   - apiVersion: v2
     appVersion: 1.6.16
-    created: "2025-11-11T10:51:26.70838561Z"
+    created: "2025-11-11T14:05:57.852134805Z"
     description: Blockcast CDN Gateway
     digest: 7ddd3c05371b6efda58b1e3b75a50561687a5ddfd75daf9e4ae283af40142919
     name: cdn-gateway
@@ -121,4 +131,4 @@ entries:
     urls:
     - https://blockcast.github.io/helm-charts/cdn-gateway-1.6.16.tgz
     version: 1.6.16
-generated: "2025-11-11T10:51:26.707731573Z"
+generated: "2025-11-11T14:05:57.851485687Z"
