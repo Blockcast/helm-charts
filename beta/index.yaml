@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  cdn-gateway:
+  - annotations:
+      crypto.support: ed25519,ecdsa,rsa
+      tls.protocols: TLSv1.2,TLSv1.3
+    apiVersion: v2
+    appVersion: 1.8.6-15408.95d36ad3
+    created: "2026-04-28T17:34:45.634891709Z"
+    description: Blockcast CDN Gateway with ED25519 TLS Support
+    digest: 4d45d319123a012bee199c885d754c7f2f480fc8c2f0c4638d487de5c2bc3fe1
+    name: cdn-gateway
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/beta/cdn-gateway-1.8.6-15408.95d36ad3.tgz
+    version: 1.8.6-15408.95d36ad3
+  - annotations:
+      crypto.support: ed25519,ecdsa,rsa
+      tls.protocols: TLSv1.2,TLSv1.3
+    apiVersion: v2
+    appVersion: 1.8.2-22.8833e5cd
+    created: "2026-04-28T17:34:45.626837987Z"
+    description: Blockcast CDN Gateway with ED25519 TLS Support
+    digest: 1ea20c584fa4fbdcf428ef558a93e64b41a4b516153d6313d0f02ada6c246995
+    name: cdn-gateway
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/beta/cdn-gateway-1.8.2-22.8833e5cd.tgz
+    version: 1.8.2-22.8833e5cd
+generated: "2026-04-28T17:34:45.612415319Z"
