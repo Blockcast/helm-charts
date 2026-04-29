@@ -5,8 +5,21 @@ entries:
       crypto.support: ed25519,ecdsa,rsa
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
+    appVersion: 1.8.6-15414.e6e9ce9f
+    created: "2026-04-29T06:24:29.037958523Z"
+    description: Blockcast CDN Gateway with ED25519 TLS Support
+    digest: 4ba7ead41042208a69b853f005755c27fc63226c60c13258a75880934d157330
+    name: cdn-gateway
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/beta/cdn-gateway-1.8.6-15414.e6e9ce9f.tgz
+    version: 1.8.6-15414.e6e9ce9f
+  - annotations:
+      crypto.support: ed25519,ecdsa,rsa
+      tls.protocols: TLSv1.2,TLSv1.3
+    apiVersion: v2
     appVersion: 1.8.6-15408.95d36ad3
-    created: "2026-04-28T17:34:45.634891709Z"
+    created: "2026-04-29T06:24:29.033056411Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 4d45d319123a012bee199c885d754c7f2f480fc8c2f0c4638d487de5c2bc3fe1
     name: cdn-gateway
@@ -19,7 +32,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.2-22.8833e5cd
-    created: "2026-04-28T17:34:45.626837987Z"
+    created: "2026-04-29T06:24:29.024222279Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 1ea20c584fa4fbdcf428ef558a93e64b41a4b516153d6313d0f02ada6c246995
     name: cdn-gateway
@@ -27,4 +40,18 @@ entries:
     urls:
     - https://blockcast.github.io/helm-charts/beta/cdn-gateway-1.8.2-22.8833e5cd.tgz
     version: 1.8.2-22.8833e5cd
-generated: "2026-04-28T17:34:45.612415319Z"
+  cdn-gateway-orc8r-prereqs:
+  - apiVersion: v2
+    appVersion: 1.8.6-15414.e6e9ce9f
+    created: "2026-04-29T06:24:29.03832878Z"
+    description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
+      per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
+      Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
+      service account cannot manage during helm upgrades. '
+    digest: 0c4d41eec6f15133eb1bde08d87f500ff7c3bc286436acb5988b25c1b1e4aeb1
+    name: cdn-gateway-orc8r-prereqs
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/beta/cdn-gateway-orc8r-prereqs-1.8.6-15414.e6e9ce9f.tgz
+    version: 1.8.6-15414.e6e9ce9f
+generated: "2026-04-29T06:24:29.010084124Z"
