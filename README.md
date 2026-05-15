@@ -6,7 +6,7 @@ There are two release tracks:
 
 | Track | Purpose | Helm repo URL |
 |-------|---------|---------------|
-| **stable** | Production | `https://blockcast.github.io/helm-charts` |
+| **stable** | Production | `https://blockcast.github.io/helm-charts/stable` |
 | **beta** | Staging / early access | `https://blockcast.github.io/helm-charts/beta` |
 
 > **Note:** All chart versions use pre-release SemVer suffixes (e.g., `1.8.8-15529.de614275`). You must pass `--devel` to Helm commands so that Helm includes these versions — without it Helm will find no installable chart.
@@ -30,7 +30,7 @@ There are two release tracks:
 
 **Stable (production):**
 ```bash
-helm repo add blockcast https://blockcast.github.io/helm-charts
+helm repo add blockcast https://blockcast.github.io/helm-charts/stable
 helm repo update
 ```
 
