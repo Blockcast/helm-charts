@@ -125,19 +125,6 @@ Look for the configuration received and dynamic services starting up (e.g. `beac
 
 ---
 
-## Key configuration flags
-
-| Flag | Default | Effect |
-|------|---------|--------|
-| `relay.enabled` | `false` | Enable the ATS relay (requires prereqs chart) |
-| `trafficRouter.enabled` | `false` | Enable Traffic Router sidecar |
-| `amtRelay.enabled` | `false` | Enable AMT multicast relay |
-| `moqRelay.enabled` | `false` | Enable MoQ relay |
-| `beacond.enabled` | `true` | Enable beacon service |
-| `relay.gatewayAPI.enabled` | `false` | Enable Gateway API routing |
-
----
-
 ## Upgrades
 
 The gateway upgrades itself automatically once running. To manually upgrade the Helm release:
