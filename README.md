@@ -163,10 +163,6 @@ If either is empty, re-run [Step 1](#step-1--install-cluster-prerequisites-admin
 kubectl rollout restart deployment/blockcastd-relay -n <your-namespace>
 ```
 
-### Relay self-upgrade fails after enabling dynamic service
-
-`blockcastd` runs `helm upgrade --reuse-values --set relay.enabled=true` from inside the cluster. If this fails on RBAC, the prereqs `releaseName` does not match the gateway release name. The `ClusterRoleBinding` subjects are scoped to `<releaseName>-blockcastd-gateway` — if your gateway release is not `blockcastd`, re-run Step 1 with `--set releaseName=<your-gateway-release>`.
-
 ### `helm search repo` returns no results
 
 Pre-release chart versions require `--devel`:
