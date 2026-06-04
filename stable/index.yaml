@@ -5,8 +5,21 @@ entries:
       crypto.support: ed25519,ecdsa,rsa
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
+    appVersion: 1.8.50-15856.ac827632
+    created: "2026-06-04T09:57:51.413729385Z"
+    description: Blockcast CDN Gateway with ED25519 TLS Support
+    digest: 2466f1c0a940a424689831beabd87811d5c7fb077e4bba7203135098b18a6f54
+    name: cdn-gateway
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/stable/cdn-gateway-1.8.50-15856.ac827632.tgz
+    version: 1.8.50-15856.ac827632
+  - annotations:
+      crypto.support: ed25519,ecdsa,rsa
+      tls.protocols: TLSv1.2,TLSv1.3
+    apiVersion: v2
     appVersion: 1.8.49-15823.495621c8
-    created: "2026-06-02T13:33:48.892440865Z"
+    created: "2026-06-04T09:57:51.401505222Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 333127546670e0f2912958f143eaa92965b31f7ad88304945dc52ce89a1aed06
     name: cdn-gateway
@@ -19,7 +32,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.16-15613.67c62d59
-    created: "2026-06-02T13:33:48.884002811Z"
+    created: "2026-06-04T09:57:51.382337077Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: daa6ab59dc999059ea54a29576674bd207af8847c6224eb42b8162ca0ea0f73c
     name: cdn-gateway
@@ -32,7 +45,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.15-15597.9d1b6530
-    created: "2026-06-02T13:33:48.872815977Z"
+    created: "2026-06-04T09:57:51.372182953Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 39c98cdfd3612ac2b939993aefb02768e975cae1a737ea0e73de5b02234d09c0
     name: cdn-gateway
@@ -42,8 +55,21 @@ entries:
     version: 1.8.15-15597.9d1b6530
   cdn-gateway-orc8r-prereqs:
   - apiVersion: v2
+    appVersion: 1.8.50-15856.ac827632
+    created: "2026-06-04T09:57:51.414982963Z"
+    description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
+      per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
+      Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
+      service account cannot manage during helm upgrades. '
+    digest: ef0a08112e74580f0deea55c7214c4e28cf07c5a3600cf1ba8a9336ed369fe5a
+    name: cdn-gateway-orc8r-prereqs
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/stable/cdn-gateway-orc8r-prereqs-1.8.50-15856.ac827632.tgz
+    version: 1.8.50-15856.ac827632
+  - apiVersion: v2
     appVersion: 1.8.49-15823.495621c8
-    created: "2026-06-02T13:33:48.898273412Z"
+    created: "2026-06-04T09:57:51.41471199Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -56,7 +82,7 @@ entries:
     version: 1.8.49-15823.495621c8
   - apiVersion: v2
     appVersion: 1.8.16-15613.67c62d59
-    created: "2026-06-02T13:33:48.897000073Z"
+    created: "2026-06-04T09:57:51.414399678Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -69,7 +95,7 @@ entries:
     version: 1.8.16-15613.67c62d59
   - apiVersion: v2
     appVersion: 1.8.15-15597.9d1b6530
-    created: "2026-06-02T13:33:48.895831152Z"
+    created: "2026-06-04T09:57:51.414120185Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -80,4 +106,4 @@ entries:
     urls:
     - https://blockcast.github.io/helm-charts/stable/cdn-gateway-orc8r-prereqs-1.8.15-15597.9d1b6530.tgz
     version: 1.8.15-15597.9d1b6530
-generated: "2026-06-02T13:33:48.857258476Z"
+generated: "2026-06-04T09:57:51.358562078Z"
