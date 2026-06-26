@@ -1,0 +1,321 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 0,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Blockcast CDN Gateway \u2014 Helm Charts",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_blockcast_cdn_gateway_helm_charts",
+      "community": 0,
+      "norm_label": "blockcast cdn gateway \u2014 helm charts"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "readme_prerequisites",
+      "community": 0,
+      "norm_label": "prerequisites"
+    },
+    {
+      "label": "Add the Helm repository",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "readme_add_the_helm_repository",
+      "community": 0,
+      "norm_label": "add the helm repository"
+    },
+    {
+      "label": "Installation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "readme_installation",
+      "community": 1,
+      "norm_label": "installation"
+    },
+    {
+      "label": "Step 1 \u2014 Install cluster prerequisites (admin, once per namespace)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "readme_step_1_install_cluster_prerequisites_admin_once_per_namespace",
+      "community": 1,
+      "norm_label": "step 1 \u2014 install cluster prerequisites (admin, once per namespace)"
+    },
+    {
+      "label": "Verify Step 1 landed",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "readme_verify_step_1_landed",
+      "community": 1,
+      "norm_label": "verify step 1 landed"
+    },
+    {
+      "label": "Step 2 \u2014 Install the gateway",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "readme_step_2_install_the_gateway",
+      "community": 1,
+      "norm_label": "step 2 \u2014 install the gateway"
+    },
+    {
+      "label": "Post-installation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "readme_post_installation",
+      "community": 2,
+      "norm_label": "post-installation"
+    },
+    {
+      "label": "1. Register the gateway",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "readme_1_register_the_gateway",
+      "community": 2,
+      "norm_label": "1. register the gateway"
+    },
+    {
+      "label": "2. Verify registration",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "_origin": "ast",
+      "id": "readme_2_verify_registration",
+      "community": 2,
+      "norm_label": "2. verify registration"
+    },
+    {
+      "label": "Upgrades",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L128",
+      "_origin": "ast",
+      "id": "readme_upgrades",
+      "community": 0,
+      "norm_label": "upgrades"
+    },
+    {
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L143",
+      "_origin": "ast",
+      "id": "readme_troubleshooting",
+      "community": 3,
+      "norm_label": "troubleshooting"
+    },
+    {
+      "label": "Gateway stuck on `PROGRAMMED=Unknown` (\"Waiting for controller\")",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L145",
+      "_origin": "ast",
+      "id": "readme_gateway_stuck_on_programmed_unknown_waiting_for_controller",
+      "community": 3,
+      "norm_label": "gateway stuck on `programmed=unknown` (\"waiting for controller\")"
+    },
+    {
+      "label": "`helm search repo` returns no results",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L166",
+      "_origin": "ast",
+      "id": "readme_helm_search_repo_returns_no_results",
+      "community": 3,
+      "norm_label": "`helm search repo` returns no results"
+    },
+    {
+      "label": "Uninstall",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L176",
+      "_origin": "ast",
+      "id": "readme_uninstall",
+      "community": 0,
+      "norm_label": "uninstall"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_blockcast_cdn_gateway_helm_charts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "readme_blockcast_cdn_gateway_helm_charts",
+      "target": "readme_add_the_helm_repository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "readme_blockcast_cdn_gateway_helm_charts",
+      "target": "readme_installation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "readme_blockcast_cdn_gateway_helm_charts",
+      "target": "readme_post_installation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "readme_blockcast_cdn_gateway_helm_charts",
+      "target": "readme_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "readme_blockcast_cdn_gateway_helm_charts",
+      "target": "readme_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "readme_blockcast_cdn_gateway_helm_charts",
+      "target": "readme_uninstall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "readme_blockcast_cdn_gateway_helm_charts",
+      "target": "readme_upgrades",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "readme_installation",
+      "target": "readme_step_1_install_cluster_prerequisites_admin_once_per_namespace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "readme_installation",
+      "target": "readme_step_2_install_the_gateway",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "readme_step_1_install_cluster_prerequisites_admin_once_per_namespace",
+      "target": "readme_verify_step_1_landed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "readme_post_installation",
+      "target": "readme_1_register_the_gateway",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "readme_post_installation",
+      "target": "readme_2_verify_registration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "readme_troubleshooting",
+      "target": "readme_gateway_stuck_on_programmed_unknown_waiting_for_controller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "readme_troubleshooting",
+      "target": "readme_helm_search_repo_returns_no_results",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "7e31be782fd1a010b5c6bafced76004a28b26b0b"
+}
