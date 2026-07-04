@@ -5,6 +5,19 @@ entries:
       crypto.support: ed25519,ecdsa,rsa
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
+    appVersion: 1.8.64-16075.ecee3b47
+    created: "2026-07-04T02:39:19.328527884Z"
+    description: Blockcast CDN Gateway with ED25519 TLS Support
+    digest: f00bb2d46b2b21683f865166a00d05aceabf5c469e43b9c9ad28bc195063f2aa
+    name: cdn-gateway
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/beta/cdn-gateway-1.8.64-16075.ecee3b47.tgz
+    version: 1.8.64-16075.ecee3b47
+  - annotations:
+      crypto.support: ed25519,ecdsa,rsa
+      tls.protocols: TLSv1.2,TLSv1.3
+    apiVersion: v2
     appVersion: 1.8.64-16071.a33e55df
     created: "2026-07-04T01:54:43.278412063Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
@@ -1147,6 +1160,19 @@ entries:
     version: 1.8.2-22.8833e5cd
   cdn-gateway-orc8r-prereqs:
   - apiVersion: v2
+    appVersion: 1.8.64-16075.ecee3b47
+    created: "2026-07-04T02:39:19.328936486Z"
+    description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
+      per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
+      Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
+      service account cannot manage during helm upgrades. '
+    digest: 449cff8e80e52814522637a7f5b80f14c57bd03a0f5ac739e9d11eed373543ef
+    name: cdn-gateway-orc8r-prereqs
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/beta/cdn-gateway-orc8r-prereqs-1.8.64-16075.ecee3b47.tgz
+    version: 1.8.64-16075.ecee3b47
+  - apiVersion: v2
     appVersion: 1.8.64-16071.a33e55df
     created: "2026-07-04T01:54:43.583782192Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
@@ -2264,4 +2290,4 @@ entries:
     urls:
     - https://blockcast.github.io/helm-charts/beta/cdn-gateway-orc8r-prereqs-1.8.6-15414.e6e9ce9f.tgz
     version: 1.8.6-15414.e6e9ce9f
-generated: "2026-07-04T01:54:41.7454331Z"
+generated: "2026-07-04T02:39:19.319713396Z"
