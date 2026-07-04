@@ -21,7 +21,7 @@ entries:
     appVersion: 1.8.63-16069.96f1bf07
     created: "2026-07-03T10:39:50.061976Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
-    digest: 63afb52b1877b57559c73d233f1f0cff7895e7d1864d9a11ba305190f0b8eddc
+    digest: 330874c38f0e0e7d1a714e4d16f540fee30f4c70651a244b9c8fb8c93fb99969
     name: cdn-gateway
     type: application
     urls:
@@ -1166,7 +1166,7 @@ entries:
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
       service account cannot manage during helm upgrades. '
-    digest: cb96ebfa1140213a36484ef46467e75c5ebfe727026e3d530ad0319237b9fc95
+    digest: 26d2563a2e69472e1205e8e221a280d7d8e776951b7677bba5ea3bde0a96c1a3
     name: cdn-gateway-orc8r-prereqs
     type: application
     urls:
