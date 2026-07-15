@@ -5,8 +5,21 @@ entries:
       crypto.support: ed25519,ecdsa,rsa
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
+    appVersion: 1.8.81-16225.7af1e4fb
+    created: "2026-07-15T17:53:32.708974989Z"
+    description: Blockcast CDN Gateway with ED25519 TLS Support
+    digest: 36b4970ec665510de4575318cdd680cd1aca690ef49064f153f3bb84fcdb7b62
+    name: cdn-gateway
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/beta/cdn-gateway-1.8.81-16225.7af1e4fb.tgz
+    version: 1.8.81-16225.7af1e4fb
+  - annotations:
+      crypto.support: ed25519,ecdsa,rsa
+      tls.protocols: TLSv1.2,TLSv1.3
+    apiVersion: v2
     appVersion: 1.8.81-16221.e1e229fd
-    created: "2026-07-15T09:42:12.3875157Z"
+    created: "2026-07-15T17:53:32.694146248Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 781ce44b91bb537f32315015582a21d75592779d096db7dc4129aad3e08caa41
     name: cdn-gateway
@@ -19,7 +32,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.80-16219.48faf279
-    created: "2026-07-15T09:42:12.363572336Z"
+    created: "2026-07-15T17:53:32.678749378Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 03312ddac6bb0dac53eb7cb437f3090c026b34a094225f64874bd07351bbf407
     name: cdn-gateway
@@ -32,7 +45,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.80-16218.6ea9a32a
-    created: "2026-07-15T09:42:12.335347271Z"
+    created: "2026-07-15T17:53:32.663429867Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 4d725aea171519c8db709483295c46ff13b9977c13a9086cbb4f864c9cb719f4
     name: cdn-gateway
@@ -45,7 +58,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.80-16217.efb397c1
-    created: "2026-07-15T09:42:12.312152804Z"
+    created: "2026-07-15T17:53:32.648391026Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 38ae0f17e090d085c4a8340b3e6b78d7f649da3209759908694c645e619b0426
     name: cdn-gateway
@@ -58,7 +71,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.78-16209.34c8032b
-    created: "2026-07-15T09:42:12.292475651Z"
+    created: "2026-07-15T17:53:32.627798087Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 131a99bb1feb403b87d066e89e4b8a9c2ebcc6698d14e1b00704e9446d085363
     name: cdn-gateway
@@ -71,7 +84,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.77-16199.8b672ae8
-    created: "2026-07-15T09:42:12.242604197Z"
+    created: "2026-07-15T17:53:32.615884904Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: d59fb0bdf361fd1b57cb018e8f304faebe7df5d2a7b3ca464f04df3910193071
     name: cdn-gateway
@@ -84,7 +97,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.77-16193.b0459be3
-    created: "2026-07-15T09:42:12.221461688Z"
+    created: "2026-07-15T17:53:32.6030786Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: fd1b76420c39c7f84314a1551884bf2e2252480404bdf3ee72ce8b1c9ae35744
     name: cdn-gateway
@@ -97,7 +110,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.76-16192.94bc0076
-    created: "2026-07-15T09:42:12.200727516Z"
+    created: "2026-07-15T17:53:32.582741313Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 08c7459c9c2db3a4c2355e1bb825c0d23a131dd5e3383d652a576ae89e688bc6
     name: cdn-gateway
@@ -110,7 +123,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.75-16187.31d302c3
-    created: "2026-07-15T09:42:12.178966404Z"
+    created: "2026-07-15T17:53:32.565155209Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 7b38e0c8bb1c1010574578a6aa7bdba8872f97a3a90c7df6cb9f90a2fb457866
     name: cdn-gateway
@@ -123,7 +136,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.75-16181.a4e28c80
-    created: "2026-07-15T09:42:12.156908587Z"
+    created: "2026-07-15T17:53:32.545725736Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 2e7fbb57dee7358d6a59afa7e070194bc09ecf99164d097c13506e2e64f69452
     name: cdn-gateway
@@ -136,7 +149,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.75-16179.b344bd70
-    created: "2026-07-15T09:42:12.112191171Z"
+    created: "2026-07-15T17:53:32.530565098Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: dc0540fb87fada2560c161afad51331b7c0a60191d0e70256c724f154c142ae8
     name: cdn-gateway
@@ -149,7 +162,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.75-16178.3b645821
-    created: "2026-07-15T09:42:12.086430244Z"
+    created: "2026-07-15T17:53:32.512626956Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 20d1e4f1aa7aae837ac77e5175d76fdf99646c0bc1db876591ebaa75acaf53e2
     name: cdn-gateway
@@ -162,7 +175,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.74-16177.ab29aacc
-    created: "2026-07-15T09:42:12.053644956Z"
+    created: "2026-07-15T17:53:32.497243794Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 17c64491effde82f7114fb2bb420b255cc614453059fdc07c9c0a711c0c48dcb
     name: cdn-gateway
@@ -175,7 +188,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.73-16171.f6e47694
-    created: "2026-07-15T09:42:11.945497971Z"
+    created: "2026-07-15T17:53:32.475742051Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 08d1d8e9b5fed86446adfabae882726325122e63d8cbbe9badce68aabafa4efa
     name: cdn-gateway
@@ -188,7 +201,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.71-16169.4f8a4af4
-    created: "2026-07-15T09:42:11.911062881Z"
+    created: "2026-07-15T17:53:32.46626408Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 6cc5bead22514d1afc99da26d2ed3675241d9be5c25f0e725bd6df0f1fea7945
     name: cdn-gateway
@@ -201,7 +214,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.71-16167.5a3ee1bc
-    created: "2026-07-15T09:42:11.855007296Z"
+    created: "2026-07-15T17:53:32.453846883Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: bd58215349216c82015c5391d90eb0468cec80498e9520f8282fdeb33d9b77f9
     name: cdn-gateway
@@ -214,7 +227,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.71-16165.f3bca4bd
-    created: "2026-07-15T09:42:11.826823945Z"
+    created: "2026-07-15T17:53:32.439374398Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: b7c05696621b41ef1327a52106bcfb15928290d7368e900fa3e0e3adb4641cbc
     name: cdn-gateway
@@ -227,7 +240,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.70-16163.4d3d44a2
-    created: "2026-07-15T09:42:11.812313753Z"
+    created: "2026-07-15T17:53:32.417409782Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 073c254bff47fddd4c29baf0d403c735eae4751e007e3389716825d31b8d495f
     name: cdn-gateway
@@ -240,7 +253,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.70-16154.435100d8
-    created: "2026-07-15T09:42:11.792312963Z"
+    created: "2026-07-15T17:53:32.40403492Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: df81792b944a1bebb29ee35c049b396066a3ce681d97de33e7a02e342677d945
     name: cdn-gateway
@@ -253,7 +266,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.69-16153.53ebdb45
-    created: "2026-07-15T09:42:11.65201178Z"
+    created: "2026-07-15T17:53:32.299936834Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: d0c03a2310d8a6422bb4d0fc5c20f2cccef4b7c18e6fe0fd2ee933e974c565de
     name: cdn-gateway
@@ -266,7 +279,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.68-16151.e5ac2c6a
-    created: "2026-07-15T09:42:11.629348491Z"
+    created: "2026-07-15T17:53:32.288086779Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: c93cdef4fbed6a9925d8498e21c47291edb7c8cf9f31d3b7a4fb710cb437a59b
     name: cdn-gateway
@@ -279,7 +292,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.68-16139.33951e79
-    created: "2026-07-15T09:42:11.60234032Z"
+    created: "2026-07-15T17:53:32.273816711Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 2ec7a8d4442d832f451c7e6ebda897dd99ba4c288edac13df2fff0497e1e2691
     name: cdn-gateway
@@ -292,7 +305,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.68-16135.bad88d4b
-    created: "2026-07-15T09:42:11.584459887Z"
+    created: "2026-07-15T17:53:32.259811288Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 49cbbb869b2074990158ce70ccfbdff4f2734daf93397fcdf73dc1860ba47d07
     name: cdn-gateway
@@ -305,7 +318,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.68-16122.58a6db95
-    created: "2026-07-15T09:42:11.365371085Z"
+    created: "2026-07-15T17:53:32.239827605Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: dcbde460a50f544b80faffc86d67b791d73f7703ad61aa0d9fddf6073a05d676
     name: cdn-gateway
@@ -318,7 +331,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.68-16120.2bba37fd
-    created: "2026-07-15T09:42:11.342859887Z"
+    created: "2026-07-15T17:53:32.223198399Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: d1af2d8b5a8ed8dadee6bb2688b6e9db093d413a91b0f166db51357c8cb6deb9
     name: cdn-gateway
@@ -331,7 +344,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.67-16096.370068bd
-    created: "2026-07-15T09:42:11.303592435Z"
+    created: "2026-07-15T17:53:32.205145036Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 1488b280d3ebc25d0efa14c2cdf9c00aee33684f191c28fabd5e69d3c98c589d
     name: cdn-gateway
@@ -344,7 +357,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.66-16086.db976c20
-    created: "2026-07-15T09:42:11.273768591Z"
+    created: "2026-07-15T17:53:32.192740069Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: cd899b4084ee29b922800cd9f8c6318ac72906959c4bb28447e1593967759bd2
     name: cdn-gateway
@@ -357,7 +370,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.65-16073.60651987
-    created: "2026-07-15T09:42:11.256940488Z"
+    created: "2026-07-15T17:53:32.17878152Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: bbf7b6e747b319164a0f70a9f4532723a1db835896da930ceab5fb77e1f1d9ce
     name: cdn-gateway
@@ -370,7 +383,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.64-16075.ecee3b47
-    created: "2026-07-15T09:42:11.096558237Z"
+    created: "2026-07-15T17:53:32.164390128Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: f00bb2d46b2b21683f865166a00d05aceabf5c469e43b9c9ad28bc195063f2aa
     name: cdn-gateway
@@ -383,7 +396,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.64-16071.a33e55df
-    created: "2026-07-15T09:42:11.05326103Z"
+    created: "2026-07-15T17:53:32.150252036Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 6eaa3b323f683cd8d3e02238857132b1e3ad6336078d3ca808e30803b030222e
     name: cdn-gateway
@@ -396,7 +409,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.63-16072.899a3d9d
-    created: "2026-07-15T09:42:10.998792584Z"
+    created: "2026-07-15T17:53:32.136338541Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 1f2289fbf8e696e2319ea10bf15448a3bb87edb3226037126f008ed919864788
     name: cdn-gateway
@@ -409,7 +422,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.63-16068.4605060a
-    created: "2026-07-15T09:42:10.971260503Z"
+    created: "2026-07-15T17:53:32.120469421Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: d6cee0db89d85185ae984c1d717ff869233c062c88ff36b149d4466fe8c00782
     name: cdn-gateway
@@ -422,7 +435,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.63-16057.20ef92ed
-    created: "2026-07-15T09:42:10.936714388Z"
+    created: "2026-07-15T17:53:32.104182793Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: f3ce4275788344db3020120f99f5420f397bce18c2106387ef50cc538632457b
     name: cdn-gateway
@@ -435,7 +448,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.63-16056.fb4e1048
-    created: "2026-07-15T09:42:10.894568331Z"
+    created: "2026-07-15T17:53:32.089281057Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: c90e707c8005a8a8e182a40bc06e9debf7727bcb881b63f2465faf369cda67db
     name: cdn-gateway
@@ -448,7 +461,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.63-16044.61f52cdd
-    created: "2026-07-15T09:42:10.828836672Z"
+    created: "2026-07-15T17:53:32.073783175Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: a9b70e6c4a3ccfec1296f72e7ef706b1f923fa765e33581a0e39a3fdcbd5b643
     name: cdn-gateway
@@ -461,7 +474,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.63-16041.4e3bde8a
-    created: "2026-07-15T09:42:10.810028967Z"
+    created: "2026-07-15T17:53:32.059185826Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 9a8f3ff017defb47180ce745f293dd8ca8b3839df725617ed32b994d65e4e025
     name: cdn-gateway
@@ -474,7 +487,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.62-16040.16a5f3dd
-    created: "2026-07-15T09:42:10.781887658Z"
+    created: "2026-07-15T17:53:32.046962909Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 79838f026a902c91fa017d7324a1559322eb3d765e9fbdeeb478515ff1babf60
     name: cdn-gateway
@@ -487,7 +500,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.61-16018.f7a35bd7
-    created: "2026-07-15T09:42:10.546433748Z"
+    created: "2026-07-15T17:53:32.026253561Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: f808213c12b1a91c1f34f8e7e2ab485aaf60d4f164fb59c0849673f8c53d0b66
     name: cdn-gateway
@@ -500,7 +513,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.60-16001.31c85125
-    created: "2026-07-15T09:42:10.517626879Z"
+    created: "2026-07-15T17:53:32.01402763Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 03c8f26d54bf38405d8967b2c1289476fa2e12c9170ae84f0e11bb829a5a209c
     name: cdn-gateway
@@ -513,7 +526,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.60-15995.28f462e2
-    created: "2026-07-15T09:42:10.493599943Z"
+    created: "2026-07-15T17:53:32.001536614Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: b3132a217d48dc735372ed7d5a41433d2da7888db2ea5fe45054884fb07c0be6
     name: cdn-gateway
@@ -526,7 +539,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.59-15990.9ecbc99e
-    created: "2026-07-15T09:42:10.323368335Z"
+    created: "2026-07-15T17:53:31.960820045Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 11a7a7b2df170f83ba924c6874d52bf7d7d63679d9f3bdbde1823e423c434add
     name: cdn-gateway
@@ -539,7 +552,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.58-15989.18df5075
-    created: "2026-07-15T09:42:10.300940825Z"
+    created: "2026-07-15T17:53:31.948819961Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: c9d421ffee4c95d4ea69bc4090189dc8bc85863fc1a2742cf85669adb789fc34
     name: cdn-gateway
@@ -552,7 +565,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.57-15986.47fe47c1
-    created: "2026-07-15T09:42:10.268261644Z"
+    created: "2026-07-15T17:53:31.932764254Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 1d87eabe193e6923b05f66f42017327711e2105c5650a0cda79db49ff6614f6a
     name: cdn-gateway
@@ -565,7 +578,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.56-15981.e08465a8
-    created: "2026-07-15T09:42:10.242001544Z"
+    created: "2026-07-15T17:53:31.914719381Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 4ad7d739075d89c60c331fbe4176e10c0c0cac260b129715d4bc960af3212018
     name: cdn-gateway
@@ -578,7 +591,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.56-15954.5cb4b779
-    created: "2026-07-15T09:42:10.215509927Z"
+    created: "2026-07-15T17:53:31.900258241Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 8c22b8d044e3d1b97d342958ed65803a1a529fdeeaa0e71f5b9841e4e84e694a
     name: cdn-gateway
@@ -591,7 +604,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.56-15950.94a5a651
-    created: "2026-07-15T09:42:10.198277634Z"
+    created: "2026-07-15T17:53:31.87550588Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 0d8b5ca84b8d015edf1cff222b2e32ed7fdb7b5e5e23188576c4dbe20a3bd03c
     name: cdn-gateway
@@ -604,7 +617,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.55-15949.0bbd9e24
-    created: "2026-07-15T09:42:10.161599639Z"
+    created: "2026-07-15T17:53:31.856898899Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 641d4f0da9bdee7bf44a3fe9035f13b0118b5bc3706afccb8ca0e7a13c2141a2
     name: cdn-gateway
@@ -617,7 +630,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.54-15945.77433a39
-    created: "2026-07-15T09:42:10.134870574Z"
+    created: "2026-07-15T17:53:31.838761218Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 13746fe3cff31c74a0175312a5e68ca5955b79b7168c3fd6dc9b7de0ebcc7c92
     name: cdn-gateway
@@ -630,7 +643,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.54-15938.77c2a422
-    created: "2026-07-15T09:42:10.087825681Z"
+    created: "2026-07-15T17:53:31.824008612Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 38fe75ec10f8074df9336061f9afdbe00271a281c5a35f7e55404131bd88ff2a
     name: cdn-gateway
@@ -643,7 +656,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.53-15934.e4fecf6c
-    created: "2026-07-15T09:42:10.067848817Z"
+    created: "2026-07-15T17:53:31.811498604Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 07de09c2684fc60b64c7c044fc7efc0fb7f9eb5bcf6cb0d205717add4affdf59
     name: cdn-gateway
@@ -656,7 +669,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.53-15930.52fdf969
-    created: "2026-07-15T09:42:10.029499705Z"
+    created: "2026-07-15T17:53:31.795715627Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 5bdd858dd458b5a655c58475823e708d2993b22c3aa927520ac0fcbf85fdc28f
     name: cdn-gateway
@@ -669,7 +682,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.53-15925.ad6159b9
-    created: "2026-07-15T09:42:09.9668765Z"
+    created: "2026-07-15T17:53:31.776634008Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: c4141239ce6fcc02224c704204c538901b0326333d743db341ec02bd981319a9
     name: cdn-gateway
@@ -682,7 +695,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.51-15864.fcb53936
-    created: "2026-07-15T09:42:09.766489594Z"
+    created: "2026-07-15T17:53:31.764468135Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 82ec5f0d5b29a9163f69d32de1117d29ccad5811601d22433acafe591a3e5de9
     name: cdn-gateway
@@ -695,7 +708,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.51-15858.4f3ce120
-    created: "2026-07-15T09:42:09.746626363Z"
+    created: "2026-07-15T17:53:31.749246415Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 53a5f745ba8a0e4dfa181ad35572a014b752bafb670d8368b8a326fe410da918
     name: cdn-gateway
@@ -708,7 +721,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.51-15848.b67e65c1
-    created: "2026-07-15T09:42:09.734749467Z"
+    created: "2026-07-15T17:53:31.733168258Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 534df1ed757ddad3823cec8d111867fb78ce5e6e8c7d6939dde357783e276208
     name: cdn-gateway
@@ -721,7 +734,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.51-15843.3b8e83f2
-    created: "2026-07-15T09:42:09.720263423Z"
+    created: "2026-07-15T17:53:31.713299499Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 64224f8eaaa6a643a2e6f1aa113a84730fc97106aa70a1ca157efea7b901df38
     name: cdn-gateway
@@ -734,7 +747,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.51-15838.961189ac
-    created: "2026-07-15T09:42:09.679734796Z"
+    created: "2026-07-15T17:53:31.697638094Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 401e9ec9134d32d7975f6946e281250c6a968cc137c62f68e08d891e14977875
     name: cdn-gateway
@@ -747,7 +760,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.50-15833.87eb538e
-    created: "2026-07-15T09:42:09.650518122Z"
+    created: "2026-07-15T17:53:31.685262078Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 1f6c7760ac7a86aab7e472a70451683cffbcea30e6170a18ea3fe07ed9e2e189
     name: cdn-gateway
@@ -760,7 +773,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.50-15824.04b6d334
-    created: "2026-07-15T09:42:09.628112832Z"
+    created: "2026-07-15T17:53:31.668611094Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: a8926f8d21ad20ea99657f9e1da0b1d66b1612f80edd5f9cffd35ce458246ab3
     name: cdn-gateway
@@ -773,7 +786,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.49-15818.32bb03a9
-    created: "2026-07-15T09:42:09.468983101Z"
+    created: "2026-07-15T17:53:31.655099271Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: a1ef6f70c2dc4cb3b94f34c772a569d8d9ad64d3c420fb3e954e2d1953880e5e
     name: cdn-gateway
@@ -786,7 +799,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.49-15807.3dc9c2d2
-    created: "2026-07-15T09:42:09.446499878Z"
+    created: "2026-07-15T17:53:31.63988175Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: fc14ca50f683050fdb88d0bc7defbe03c22d81bedaf921d21269719bddabd15a
     name: cdn-gateway
@@ -799,7 +812,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.48-15804.c53ef92a
-    created: "2026-07-15T09:42:09.349132069Z"
+    created: "2026-07-15T17:53:31.626589387Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 4b44f973c7874946224b15b2f093d201e72aadb944d7b0bbe8926a2925f65509
     name: cdn-gateway
@@ -812,7 +825,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.48-15796.a49c84f8
-    created: "2026-07-15T09:42:09.318607792Z"
+    created: "2026-07-15T17:53:31.605277004Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 88672d228fd5bbf4a60f4719d85f67f24050ba7ea6c03106c3dbbc1bc653b6ef
     name: cdn-gateway
@@ -825,7 +838,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.47-15792.95c84a1e
-    created: "2026-07-15T09:42:09.282256173Z"
+    created: "2026-07-15T17:53:31.59444537Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 12cc938bae34fd35fa32b1de0576098c9a45c6e34ee88b932cf6c4a90c899a83
     name: cdn-gateway
@@ -838,7 +851,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.45-15790.c287ee92
-    created: "2026-07-15T09:42:09.259224329Z"
+    created: "2026-07-15T17:53:31.583123579Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 9d71670f63ed0aa6c40beb394fe085d7ce129d5a47d6ee1ffc4669abfc94ed83
     name: cdn-gateway
@@ -851,7 +864,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.44-15789.d6c002fa
-    created: "2026-07-15T09:42:09.244241139Z"
+    created: "2026-07-15T17:53:31.566793969Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 75e65dedba4e718fb01b712eb97108a2fa93be52b1b8db67414005e5162db0aa
     name: cdn-gateway
@@ -864,7 +877,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.43-15786.9918148d
-    created: "2026-07-15T09:42:09.221404405Z"
+    created: "2026-07-15T17:53:31.553845428Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: f741219784cae4f1562e365883cbf2675f517a3925615af0bb40fd49bbb3a7f5
     name: cdn-gateway
@@ -877,7 +890,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.42-15783.58e5251d
-    created: "2026-07-15T09:42:09.19935716Z"
+    created: "2026-07-15T17:53:31.537395725Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 29d80934b1118e4c71ed074c2d82f1788b77dd46fa8487747c439718b4b9faa0
     name: cdn-gateway
@@ -890,7 +903,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.41-15776.665ab295
-    created: "2026-07-15T09:42:09.180864573Z"
+    created: "2026-07-15T17:53:31.52775349Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: d5b358af316ffaa282a4482a06e07fe7fa63d8b1d25e44a2f622d571a50533fb
     name: cdn-gateway
@@ -903,7 +916,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.40-15770.cf1cbb36
-    created: "2026-07-15T09:42:09.165566543Z"
+    created: "2026-07-15T17:53:31.509155208Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 3858a027746e0176b5565cd3832a8e2698d61627ac19da8714e535cc475dbf3e
     name: cdn-gateway
@@ -916,7 +929,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.39-15769.ec8e86d7
-    created: "2026-07-15T09:42:09.14953946Z"
+    created: "2026-07-15T17:53:31.494866557Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: cd2ab08f56dd88fd1398cc58a0c6a45d4423d4b12e413d2969d3c5ca43c3d309
     name: cdn-gateway
@@ -929,7 +942,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.38-15768.049e16f4
-    created: "2026-07-15T09:42:09.115251269Z"
+    created: "2026-07-15T17:53:31.478477904Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 51209e840500fe9030fdd7fd3b5e653bc60641398bb3a8624a78661041830d0a
     name: cdn-gateway
@@ -942,7 +955,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.37-15766.abf6fc29
-    created: "2026-07-15T09:42:09.09885411Z"
+    created: "2026-07-15T17:53:31.464453716Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: f0ad00f03212cd1d0e15a85d42f9f51c63082c130661f207fb1a58a6249fddc5
     name: cdn-gateway
@@ -955,7 +968,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.36-15765.9a5c6552
-    created: "2026-07-15T09:42:09.070925304Z"
+    created: "2026-07-15T17:53:31.448506356Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: dcef696b95b97f0f11594108cd28f1b7526e8ffccd3e80519ac479605f19c467
     name: cdn-gateway
@@ -968,7 +981,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.35-15758.6449d9d1
-    created: "2026-07-15T09:42:09.049063915Z"
+    created: "2026-07-15T17:53:31.434571306Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: d57f0f1f37e2588b36671630e3e9e858697bd798699fc5c620cea03af19b07c2
     name: cdn-gateway
@@ -981,7 +994,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.34-15756.20e4d278
-    created: "2026-07-15T09:42:09.007437709Z"
+    created: "2026-07-15T17:53:31.419435291Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 61f968438c567afe0e60fcf684287dec503c7a84246eda6c6402abf4cf31053b
     name: cdn-gateway
@@ -994,7 +1007,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.33-15755.76657854
-    created: "2026-07-15T09:42:08.979096129Z"
+    created: "2026-07-15T17:53:31.40757011Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: fde2b9b67da6ead8fdd13babade8c6b4ab6042a36839b11c6bf88ffb2f862ee0
     name: cdn-gateway
@@ -1007,7 +1020,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.31-15752.93a86ffa
-    created: "2026-07-15T09:42:08.94890321Z"
+    created: "2026-07-15T17:53:31.397086798Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 3d68e9e7559cdf250a7f327ea13836892878ee5760488eaaadbd7e7ea490489f
     name: cdn-gateway
@@ -1020,7 +1033,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.29-15745.68457ef1
-    created: "2026-07-15T09:42:08.934021222Z"
+    created: "2026-07-15T17:53:31.382893377Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 15d4dba7b26336cd46576447a7eed39d7ab3469964358b3495d81518a99aad80
     name: cdn-gateway
@@ -1033,7 +1046,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.28-15734.8d03af12
-    created: "2026-07-15T09:42:08.91235541Z"
+    created: "2026-07-15T17:53:31.36822246Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: d68ef7ca016443d17bef708b2d18b46495df8c80692285c43d6b8df17c50dc9a
     name: cdn-gateway
@@ -1046,7 +1059,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.25-15728.44156ac2
-    created: "2026-07-15T09:42:08.897048475Z"
+    created: "2026-07-15T17:53:31.353274027Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: e9d6c9807f51e1624cfe3d451e3e49315f672813d70f89eed4fd460821c04b21
     name: cdn-gateway
@@ -1059,7 +1072,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.25-15715.a1eab6af
-    created: "2026-07-15T09:42:08.882756681Z"
+    created: "2026-07-15T17:53:31.343201996Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: d5a1328e11e5ad794f5627bae5bf5eed1bc0570d6bbe7950d018ddeb9d8a630e
     name: cdn-gateway
@@ -1072,7 +1085,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.24-15708.a55e2e05
-    created: "2026-07-15T09:42:08.869282447Z"
+    created: "2026-07-15T17:53:31.32439446Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: f943645d9b7976f8fd5a0da83af79309d35502732097dbe461d1f380b972a780
     name: cdn-gateway
@@ -1085,7 +1098,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.23-15699.ded04fde
-    created: "2026-07-15T09:42:08.856934387Z"
+    created: "2026-07-15T17:53:31.310296365Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 7380d882cb3777b04809d6051828f376b14b77866fff28194b3ca4884e6de52a
     name: cdn-gateway
@@ -1098,7 +1111,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.23-15690.f8c23cca
-    created: "2026-07-15T09:42:08.838176764Z"
+    created: "2026-07-15T17:53:31.294304949Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 9f9a8f41e912d6b95328568f86f226cb03d1a0e98bc135ca91b2a236d4ea5dd8
     name: cdn-gateway
@@ -1111,7 +1124,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.23-15686.05dcefca
-    created: "2026-07-15T09:42:08.82283559Z"
+    created: "2026-07-15T17:53:31.28455717Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: f4111c2a3f4ce3e0734c4b1fef80e044659c87dcaf3d57b84d1e7e7f6da5749f
     name: cdn-gateway
@@ -1124,7 +1137,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.23-15685.f1a94ffe
-    created: "2026-07-15T09:42:08.807251496Z"
+    created: "2026-07-15T17:53:31.271232413Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 63544db73105d3da9a48c7cb4d3f359e15606919a8badab22d8b5ffdd13d1654
     name: cdn-gateway
@@ -1137,7 +1150,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.23-15684.ca4ac8eb
-    created: "2026-07-15T09:42:08.788534152Z"
+    created: "2026-07-15T17:53:31.258508757Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 14a2665f966b30c83899ce945f8d1f7416e402a7e552e486ec3ec58c5323a8ad
     name: cdn-gateway
@@ -1150,7 +1163,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.23-15681.d6f9895c
-    created: "2026-07-15T09:42:08.773460593Z"
+    created: "2026-07-15T17:53:31.242536466Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 1d9777debb4e967a7754116702a275cf638d184b7a521d698bceb91383f687c7
     name: cdn-gateway
@@ -1163,7 +1176,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.23-15675.6caa4ee8
-    created: "2026-07-15T09:42:08.756937022Z"
+    created: "2026-07-15T17:53:31.228944818Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 31f2243ddcc0a6ccd6f3c046ceee4f501c568f08f87588dc5ea17b7d9f89505b
     name: cdn-gateway
@@ -1176,7 +1189,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.22-15671.c65d6416
-    created: "2026-07-15T09:42:08.739943437Z"
+    created: "2026-07-15T17:53:31.208699605Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 94435d1cd0a58cac2e36aed45ad20c32ee875011730d939ba3fa847f01cd202d
     name: cdn-gateway
@@ -1189,7 +1202,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.22-15668.466d5c75
-    created: "2026-07-15T09:42:08.727029609Z"
+    created: "2026-07-15T17:53:31.19709031Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: a088893cfdcfacaa6d205ace751bf66e9f96152afac90510aed5f29379fa1c93
     name: cdn-gateway
@@ -1202,7 +1215,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.21-15664.eb814b56
-    created: "2026-07-15T09:42:08.705309535Z"
+    created: "2026-07-15T17:53:31.184570113Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 8d8dfc555ad5ec49d36b24eb43bad15b4eac03281b07492600e22f1c0c490d35
     name: cdn-gateway
@@ -1215,7 +1228,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.21-15662.56299da0
-    created: "2026-07-15T09:42:08.684684465Z"
+    created: "2026-07-15T17:53:31.170248139Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: bf0db6ac58626cb1174c43a876dc4dc34cd721bfdcdd50509cc97be744200585
     name: cdn-gateway
@@ -1228,7 +1241,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.20-15661.20f2a2d8
-    created: "2026-07-15T09:42:08.652988226Z"
+    created: "2026-07-15T17:53:31.15661372Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 69eafb66505bd01845099d5e28079726cf08abf3f73437169f27910217a95719
     name: cdn-gateway
@@ -1241,7 +1254,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.18-15652.68d65349
-    created: "2026-07-15T09:42:08.627827498Z"
+    created: "2026-07-15T17:53:31.13007913Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: ad2047b72dbbfd745117b0aaa24d0d0dbed4cd07b40f1398489f01c313add9a4
     name: cdn-gateway
@@ -1254,7 +1267,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.17-15649.75bfc896
-    created: "2026-07-15T09:42:08.600191319Z"
+    created: "2026-07-15T17:53:31.119065755Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 46f4f4f3875cb4ea0ff63d773bf8e30eb1c10be36dcb79ce5552fe28437e936d
     name: cdn-gateway
@@ -1267,7 +1280,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.16-15644.f97c43c9
-    created: "2026-07-15T09:42:08.58005088Z"
+    created: "2026-07-15T17:53:31.108457427Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 04efee09c03200ff78058b6196bd17061bcbe8b84c2a1a819abe464954e83572
     name: cdn-gateway
@@ -1280,7 +1293,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.15-15595.1e32d982
-    created: "2026-07-15T09:42:08.551893894Z"
+    created: "2026-07-15T17:53:31.100527749Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 8187f23196c7103b8cb586240f3adaf78dae9d4bf5a84a9147ba16e4e106e297
     name: cdn-gateway
@@ -1293,7 +1306,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.14-15589.c4269675
-    created: "2026-07-15T09:42:08.507350013Z"
+    created: "2026-07-15T17:53:31.091297084Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 512e97ffb9823428aa9dd023a0530f23e5efaa4b4ae31741d9d8ffb8fb9b480e
     name: cdn-gateway
@@ -1306,7 +1319,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.13-15560.93929abd
-    created: "2026-07-15T09:42:08.492643383Z"
+    created: "2026-07-15T17:53:31.083560404Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 1f4eb7ddeba9e28a466f44e4926c27f16ed29135de026c80499deaa8ebf77bde
     name: cdn-gateway
@@ -1319,7 +1332,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.13-15556.03e0f1c0
-    created: "2026-07-15T09:42:08.459011623Z"
+    created: "2026-07-15T17:53:31.070900101Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: c50648e70c7723bb421c1c666a9cbc665885136432027bfdc294cbc994d9243a
     name: cdn-gateway
@@ -1332,7 +1345,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.13-15535.ef5cd874
-    created: "2026-07-15T09:42:08.445830979Z"
+    created: "2026-07-15T17:53:31.058976746Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 6fcc6e73919cce41ba8bf5883bf6cdf46880d71cccc3b0b203e5675dfe3a57dc
     name: cdn-gateway
@@ -1345,7 +1358,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.13-15533.83d6a4cf
-    created: "2026-07-15T09:42:08.404452984Z"
+    created: "2026-07-15T17:53:31.04707069Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 898fa59453782a37f27cb5a62dc3ce4f49fe22dec3eec4abb0568c46a491f8b4
     name: cdn-gateway
@@ -1358,7 +1371,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.9-15527.21448b0b
-    created: "2026-07-15T09:42:12.399689232Z"
+    created: "2026-07-15T17:53:32.720176159Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 5a0fd4352ac5fe19665c1cd3869c2b11653d1ccd5f412c39640318968341043e
     name: cdn-gateway
@@ -1371,7 +1384,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.7-15495.75808134
-    created: "2026-07-15T09:42:11.777279875Z"
+    created: "2026-07-15T17:53:32.383532884Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: a428a86e36689336a5a64463e56583dcf4815eccc1e2b18c06ebb4c41569e6ac
     name: cdn-gateway
@@ -1384,7 +1397,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.7-15452.78d3b4e4
-    created: "2026-07-15T09:42:11.766610353Z"
+    created: "2026-07-15T17:53:32.376903535Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 402b73eaa2c81c563f48706cb9ec87b6478eaaababfde7e076f5659ba4e972a5
     name: cdn-gateway
@@ -1397,7 +1410,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.7-15449.e87de493
-    created: "2026-07-15T09:42:11.746544358Z"
+    created: "2026-07-15T17:53:32.370170855Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: ab43b7776ce983dc430264bbd41351da68734bead6b4bef4fc3005a34d7954d8
     name: cdn-gateway
@@ -1410,7 +1423,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.7-15446.c91ce499
-    created: "2026-07-15T09:42:11.737170987Z"
+    created: "2026-07-15T17:53:32.360615562Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 327c78fb24af6a6e69f3a335d5c3b5681896825acf729a2b1532d9bfb6963daa
     name: cdn-gateway
@@ -1423,7 +1436,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.7-15445.cfd752ee
-    created: "2026-07-15T09:42:11.727707275Z"
+    created: "2026-07-15T17:53:32.3523131Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 09c7338560d56591c47b33961c4937176394e090a135099ffac803c7271f9b06
     name: cdn-gateway
@@ -1436,7 +1449,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.7-15441.7d9b6cc6
-    created: "2026-07-15T09:42:11.710686661Z"
+    created: "2026-07-15T17:53:32.340734385Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: fb8d57c60fdde46ac93cc6b798965dc1f85186ce918f4e6b6fb5a3f03ca8f4b5
     name: cdn-gateway
@@ -1449,7 +1462,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.7-15432.c672755b
-    created: "2026-07-15T09:42:11.694729164Z"
+    created: "2026-07-15T17:53:32.322617138Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 125e12cf8075248046fa7efa3b115fa4c4430d8194d59c9f3cdfaa9a650f43f5
     name: cdn-gateway
@@ -1462,7 +1475,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.7-15431.2a1b9d3b
-    created: "2026-07-15T09:42:11.682956921Z"
+    created: "2026-07-15T17:53:32.312477948Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 5d851aa40ed5d9f98c461af4b15d992f9a7b5ac42880a94a0bba9da48bd7156f
     name: cdn-gateway
@@ -1475,7 +1488,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.6-15425.24f72568
-    created: "2026-07-15T09:42:10.367779289Z"
+    created: "2026-07-15T17:53:31.985106429Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 6da08bb97d68a250de266993be56c74db67994cf1d466435c92d2770f56540f6
     name: cdn-gateway
@@ -1488,7 +1501,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.6-15414.e6e9ce9f
-    created: "2026-07-15T09:42:10.356444898Z"
+    created: "2026-07-15T17:53:31.976015195Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 4ba7ead41042208a69b853f005755c27fc63226c60c13258a75880934d157330
     name: cdn-gateway
@@ -1501,7 +1514,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.6-15408.95d36ad3
-    created: "2026-07-15T09:42:10.342996011Z"
+    created: "2026-07-15T17:53:31.966108775Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 4d45d319123a012bee199c885d754c7f2f480fc8c2f0c4638d487de5c2bc3fe1
     name: cdn-gateway
@@ -1514,7 +1527,7 @@ entries:
       tls.protocols: TLSv1.2,TLSv1.3
     apiVersion: v2
     appVersion: 1.8.2-22.8833e5cd
-    created: "2026-07-15T09:42:08.638871397Z"
+    created: "2026-07-15T17:53:31.140179531Z"
     description: Blockcast CDN Gateway with ED25519 TLS Support
     digest: 1ea20c584fa4fbdcf428ef558a93e64b41a4b516153d6313d0f02ada6c246995
     name: cdn-gateway
@@ -1524,8 +1537,21 @@ entries:
     version: 1.8.2-22.8833e5cd
   cdn-gateway-orc8r-prereqs:
   - apiVersion: v2
+    appVersion: 1.8.81-16225.7af1e4fb
+    created: "2026-07-15T17:53:32.775607732Z"
+    description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
+      per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
+      Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
+      service account cannot manage during helm upgrades. '
+    digest: 0f0a0d65851a2b9fd4705f1730adea3fa7069b7239f728dde6b1a198d52e4091
+    name: cdn-gateway-orc8r-prereqs
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/beta/cdn-gateway-orc8r-prereqs-1.8.81-16225.7af1e4fb.tgz
+    version: 1.8.81-16225.7af1e4fb
+  - apiVersion: v2
     appVersion: 1.8.81-16221.e1e229fd
-    created: "2026-07-15T09:42:12.622208873Z"
+    created: "2026-07-15T17:53:32.775188976Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1538,7 +1564,7 @@ entries:
     version: 1.8.81-16221.e1e229fd
   - apiVersion: v2
     appVersion: 1.8.80-16219.48faf279
-    created: "2026-07-15T09:42:12.618697507Z"
+    created: "2026-07-15T17:53:32.774571217Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1551,7 +1577,7 @@ entries:
     version: 1.8.80-16219.48faf279
   - apiVersion: v2
     appVersion: 1.8.80-16218.6ea9a32a
-    created: "2026-07-15T09:42:12.617208063Z"
+    created: "2026-07-15T17:53:32.774199488Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1564,7 +1590,7 @@ entries:
     version: 1.8.80-16218.6ea9a32a
   - apiVersion: v2
     appVersion: 1.8.80-16217.efb397c1
-    created: "2026-07-15T09:42:12.615318915Z"
+    created: "2026-07-15T17:53:32.77370507Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1577,7 +1603,7 @@ entries:
     version: 1.8.80-16217.efb397c1
   - apiVersion: v2
     appVersion: 1.8.78-16209.34c8032b
-    created: "2026-07-15T09:42:12.614132645Z"
+    created: "2026-07-15T17:53:32.773359272Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1590,7 +1616,7 @@ entries:
     version: 1.8.78-16209.34c8032b
   - apiVersion: v2
     appVersion: 1.8.77-16199.8b672ae8
-    created: "2026-07-15T09:42:12.6138119Z"
+    created: "2026-07-15T17:53:32.772854181Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1603,7 +1629,7 @@ entries:
     version: 1.8.77-16199.8b672ae8
   - apiVersion: v2
     appVersion: 1.8.77-16193.b0459be3
-    created: "2026-07-15T09:42:12.613490044Z"
+    created: "2026-07-15T17:53:32.77252476Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1616,7 +1642,7 @@ entries:
     version: 1.8.77-16193.b0459be3
   - apiVersion: v2
     appVersion: 1.8.76-16192.94bc0076
-    created: "2026-07-15T09:42:12.613160884Z"
+    created: "2026-07-15T17:53:32.772167846Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1629,7 +1655,7 @@ entries:
     version: 1.8.76-16192.94bc0076
   - apiVersion: v2
     appVersion: 1.8.75-16187.31d302c3
-    created: "2026-07-15T09:42:12.612807278Z"
+    created: "2026-07-15T17:53:32.771670475Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1642,7 +1668,7 @@ entries:
     version: 1.8.75-16187.31d302c3
   - apiVersion: v2
     appVersion: 1.8.75-16181.a4e28c80
-    created: "2026-07-15T09:42:12.61223306Z"
+    created: "2026-07-15T17:53:32.771031796Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1655,7 +1681,7 @@ entries:
     version: 1.8.75-16181.a4e28c80
   - apiVersion: v2
     appVersion: 1.8.75-16179.b344bd70
-    created: "2026-07-15T09:42:12.611609685Z"
+    created: "2026-07-15T17:53:32.770653097Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1668,7 +1694,7 @@ entries:
     version: 1.8.75-16179.b344bd70
   - apiVersion: v2
     appVersion: 1.8.75-16178.3b645821
-    created: "2026-07-15T09:42:12.611032351Z"
+    created: "2026-07-15T17:53:32.770286578Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1681,7 +1707,7 @@ entries:
     version: 1.8.75-16178.3b645821
   - apiVersion: v2
     appVersion: 1.8.74-16177.ab29aacc
-    created: "2026-07-15T09:42:12.610442429Z"
+    created: "2026-07-15T17:53:32.769938693Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1694,7 +1720,7 @@ entries:
     version: 1.8.74-16177.ab29aacc
   - apiVersion: v2
     appVersion: 1.8.73-16171.f6e47694
-    created: "2026-07-15T09:42:12.609824111Z"
+    created: "2026-07-15T17:53:32.769306237Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1707,7 +1733,7 @@ entries:
     version: 1.8.73-16171.f6e47694
   - apiVersion: v2
     appVersion: 1.8.71-16169.4f8a4af4
-    created: "2026-07-15T09:42:12.609172319Z"
+    created: "2026-07-15T17:53:32.768777246Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1720,7 +1746,7 @@ entries:
     version: 1.8.71-16169.4f8a4af4
   - apiVersion: v2
     appVersion: 1.8.71-16167.5a3ee1bc
-    created: "2026-07-15T09:42:12.608565079Z"
+    created: "2026-07-15T17:53:32.768250876Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1733,7 +1759,7 @@ entries:
     version: 1.8.71-16167.5a3ee1bc
   - apiVersion: v2
     appVersion: 1.8.71-16165.f3bca4bd
-    created: "2026-07-15T09:42:12.607984786Z"
+    created: "2026-07-15T17:53:32.767706653Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1746,7 +1772,7 @@ entries:
     version: 1.8.71-16165.f3bca4bd
   - apiVersion: v2
     appVersion: 1.8.70-16163.4d3d44a2
-    created: "2026-07-15T09:42:12.60736763Z"
+    created: "2026-07-15T17:53:32.767226898Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1759,7 +1785,7 @@ entries:
     version: 1.8.70-16163.4d3d44a2
   - apiVersion: v2
     appVersion: 1.8.70-16154.435100d8
-    created: "2026-07-15T09:42:12.606763525Z"
+    created: "2026-07-15T17:53:32.766749133Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1772,7 +1798,7 @@ entries:
     version: 1.8.70-16154.435100d8
   - apiVersion: v2
     appVersion: 1.8.69-16153.53ebdb45
-    created: "2026-07-15T09:42:12.601207242Z"
+    created: "2026-07-15T17:53:32.762587493Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1785,7 +1811,7 @@ entries:
     version: 1.8.69-16153.53ebdb45
   - apiVersion: v2
     appVersion: 1.8.68-16151.e5ac2c6a
-    created: "2026-07-15T09:42:12.598038828Z"
+    created: "2026-07-15T17:53:32.762155604Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1798,7 +1824,7 @@ entries:
     version: 1.8.68-16151.e5ac2c6a
   - apiVersion: v2
     appVersion: 1.8.68-16139.33951e79
-    created: "2026-07-15T09:42:12.591101753Z"
+    created: "2026-07-15T17:53:32.761676561Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1811,7 +1837,7 @@ entries:
     version: 1.8.68-16139.33951e79
   - apiVersion: v2
     appVersion: 1.8.68-16135.bad88d4b
-    created: "2026-07-15T09:42:12.590107868Z"
+    created: "2026-07-15T17:53:32.761288086Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1824,7 +1850,7 @@ entries:
     version: 1.8.68-16135.bad88d4b
   - apiVersion: v2
     appVersion: 1.8.68-16122.58a6db95
-    created: "2026-07-15T09:42:12.587894138Z"
+    created: "2026-07-15T17:53:32.761012216Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1837,7 +1863,7 @@ entries:
     version: 1.8.68-16122.58a6db95
   - apiVersion: v2
     appVersion: 1.8.68-16120.2bba37fd
-    created: "2026-07-15T09:42:12.585175583Z"
+    created: "2026-07-15T17:53:32.760726492Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1850,7 +1876,7 @@ entries:
     version: 1.8.68-16120.2bba37fd
   - apiVersion: v2
     appVersion: 1.8.67-16096.370068bd
-    created: "2026-07-15T09:42:12.584437815Z"
+    created: "2026-07-15T17:53:32.760448152Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1863,7 +1889,7 @@ entries:
     version: 1.8.67-16096.370068bd
   - apiVersion: v2
     appVersion: 1.8.66-16086.db976c20
-    created: "2026-07-15T09:42:12.576839964Z"
+    created: "2026-07-15T17:53:32.760146208Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1876,7 +1902,7 @@ entries:
     version: 1.8.66-16086.db976c20
   - apiVersion: v2
     appVersion: 1.8.65-16073.60651987
-    created: "2026-07-15T09:42:12.571157114Z"
+    created: "2026-07-15T17:53:32.759852403Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1889,7 +1915,7 @@ entries:
     version: 1.8.65-16073.60651987
   - apiVersion: v2
     appVersion: 1.8.64-16075.ecee3b47
-    created: "2026-07-15T09:42:12.563454918Z"
+    created: "2026-07-15T17:53:32.759575744Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1902,7 +1928,7 @@ entries:
     version: 1.8.64-16075.ecee3b47
   - apiVersion: v2
     appVersion: 1.8.64-16071.a33e55df
-    created: "2026-07-15T09:42:12.556861101Z"
+    created: "2026-07-15T17:53:32.759265932Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1915,7 +1941,7 @@ entries:
     version: 1.8.64-16071.a33e55df
   - apiVersion: v2
     appVersion: 1.8.63-16072.899a3d9d
-    created: "2026-07-15T09:42:12.555753206Z"
+    created: "2026-07-15T17:53:32.758974882Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1928,7 +1954,7 @@ entries:
     version: 1.8.63-16072.899a3d9d
   - apiVersion: v2
     appVersion: 1.8.63-16068.4605060a
-    created: "2026-07-15T09:42:12.551164602Z"
+    created: "2026-07-15T17:53:32.758681126Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1941,7 +1967,7 @@ entries:
     version: 1.8.63-16068.4605060a
   - apiVersion: v2
     appVersion: 1.8.63-16057.20ef92ed
-    created: "2026-07-15T09:42:12.548611687Z"
+    created: "2026-07-15T17:53:32.758397097Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1954,7 +1980,7 @@ entries:
     version: 1.8.63-16057.20ef92ed
   - apiVersion: v2
     appVersion: 1.8.63-16056.fb4e1048
-    created: "2026-07-15T09:42:12.547841455Z"
+    created: "2026-07-15T17:53:32.758099579Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1967,7 +1993,7 @@ entries:
     version: 1.8.63-16056.fb4e1048
   - apiVersion: v2
     appVersion: 1.8.63-16044.61f52cdd
-    created: "2026-07-15T09:42:12.542833977Z"
+    created: "2026-07-15T17:53:32.757755421Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1980,7 +2006,7 @@ entries:
     version: 1.8.63-16044.61f52cdd
   - apiVersion: v2
     appVersion: 1.8.63-16041.4e3bde8a
-    created: "2026-07-15T09:42:12.541342644Z"
+    created: "2026-07-15T17:53:32.757288943Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -1993,7 +2019,7 @@ entries:
     version: 1.8.63-16041.4e3bde8a
   - apiVersion: v2
     appVersion: 1.8.62-16040.16a5f3dd
-    created: "2026-07-15T09:42:12.538347313Z"
+    created: "2026-07-15T17:53:32.75687627Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2006,7 +2032,7 @@ entries:
     version: 1.8.62-16040.16a5f3dd
   - apiVersion: v2
     appVersion: 1.8.61-16018.f7a35bd7
-    created: "2026-07-15T09:42:12.535242302Z"
+    created: "2026-07-15T17:53:32.7565847Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2019,7 +2045,7 @@ entries:
     version: 1.8.61-16018.f7a35bd7
   - apiVersion: v2
     appVersion: 1.8.60-16001.31c85125
-    created: "2026-07-15T09:42:12.5345816Z"
+    created: "2026-07-15T17:53:32.756277143Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2032,7 +2058,7 @@ entries:
     version: 1.8.60-16001.31c85125
   - apiVersion: v2
     appVersion: 1.8.60-15995.28f462e2
-    created: "2026-07-15T09:42:12.533976763Z"
+    created: "2026-07-15T17:53:32.755964821Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2045,7 +2071,7 @@ entries:
     version: 1.8.60-15995.28f462e2
   - apiVersion: v2
     appVersion: 1.8.59-15990.9ecbc99e
-    created: "2026-07-15T09:42:12.531284995Z"
+    created: "2026-07-15T17:53:32.755137459Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2058,7 +2084,7 @@ entries:
     version: 1.8.59-15990.9ecbc99e
   - apiVersion: v2
     appVersion: 1.8.58-15989.18df5075
-    created: "2026-07-15T09:42:12.527333776Z"
+    created: "2026-07-15T17:53:32.754779251Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2071,7 +2097,7 @@ entries:
     version: 1.8.58-15989.18df5075
   - apiVersion: v2
     appVersion: 1.8.57-15986.47fe47c1
-    created: "2026-07-15T09:42:12.522018138Z"
+    created: "2026-07-15T17:53:32.75442343Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2084,7 +2110,7 @@ entries:
     version: 1.8.57-15986.47fe47c1
   - apiVersion: v2
     appVersion: 1.8.56-15981.e08465a8
-    created: "2026-07-15T09:42:12.519050756Z"
+    created: "2026-07-15T17:53:32.75409207Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2097,7 +2123,7 @@ entries:
     version: 1.8.56-15981.e08465a8
   - apiVersion: v2
     appVersion: 1.8.56-15954.5cb4b779
-    created: "2026-07-15T09:42:12.515467705Z"
+    created: "2026-07-15T17:53:32.753714087Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2110,7 +2136,7 @@ entries:
     version: 1.8.56-15954.5cb4b779
   - apiVersion: v2
     appVersion: 1.8.56-15950.94a5a651
-    created: "2026-07-15T09:42:12.514462444Z"
+    created: "2026-07-15T17:53:32.753382237Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2123,7 +2149,7 @@ entries:
     version: 1.8.56-15950.94a5a651
   - apiVersion: v2
     appVersion: 1.8.55-15949.0bbd9e24
-    created: "2026-07-15T09:42:12.5132859Z"
+    created: "2026-07-15T17:53:32.752981219Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2136,7 +2162,7 @@ entries:
     version: 1.8.55-15949.0bbd9e24
   - apiVersion: v2
     appVersion: 1.8.54-15945.77433a39
-    created: "2026-07-15T09:42:12.512709Z"
+    created: "2026-07-15T17:53:32.752477615Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2149,7 +2175,7 @@ entries:
     version: 1.8.54-15945.77433a39
   - apiVersion: v2
     appVersion: 1.8.54-15938.77c2a422
-    created: "2026-07-15T09:42:12.512056504Z"
+    created: "2026-07-15T17:53:32.750237019Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2162,7 +2188,7 @@ entries:
     version: 1.8.54-15938.77c2a422
   - apiVersion: v2
     appVersion: 1.8.53-15934.e4fecf6c
-    created: "2026-07-15T09:42:12.511141816Z"
+    created: "2026-07-15T17:53:32.749641354Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2175,7 +2201,7 @@ entries:
     version: 1.8.53-15934.e4fecf6c
   - apiVersion: v2
     appVersion: 1.8.53-15930.52fdf969
-    created: "2026-07-15T09:42:12.510450005Z"
+    created: "2026-07-15T17:53:32.749057519Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2188,7 +2214,7 @@ entries:
     version: 1.8.53-15930.52fdf969
   - apiVersion: v2
     appVersion: 1.8.53-15925.ad6159b9
-    created: "2026-07-15T09:42:12.509241468Z"
+    created: "2026-07-15T17:53:32.748476578Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2201,7 +2227,7 @@ entries:
     version: 1.8.53-15925.ad6159b9
   - apiVersion: v2
     appVersion: 1.8.51-15864.fcb53936
-    created: "2026-07-15T09:42:12.508471907Z"
+    created: "2026-07-15T17:53:32.747877815Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2214,7 +2240,7 @@ entries:
     version: 1.8.51-15864.fcb53936
   - apiVersion: v2
     appVersion: 1.8.51-15858.4f3ce120
-    created: "2026-07-15T09:42:12.50756087Z"
+    created: "2026-07-15T17:53:32.747321661Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2227,7 +2253,7 @@ entries:
     version: 1.8.51-15858.4f3ce120
   - apiVersion: v2
     appVersion: 1.8.51-15848.b67e65c1
-    created: "2026-07-15T09:42:12.502234649Z"
+    created: "2026-07-15T17:53:32.74683332Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2240,7 +2266,7 @@ entries:
     version: 1.8.51-15848.b67e65c1
   - apiVersion: v2
     appVersion: 1.8.51-15843.3b8e83f2
-    created: "2026-07-15T09:42:12.501491554Z"
+    created: "2026-07-15T17:53:32.746362602Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2253,7 +2279,7 @@ entries:
     version: 1.8.51-15843.3b8e83f2
   - apiVersion: v2
     appVersion: 1.8.51-15838.961189ac
-    created: "2026-07-15T09:42:12.500643206Z"
+    created: "2026-07-15T17:53:32.745860849Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2266,7 +2292,7 @@ entries:
     version: 1.8.51-15838.961189ac
   - apiVersion: v2
     appVersion: 1.8.50-15833.87eb538e
-    created: "2026-07-15T09:42:12.497727281Z"
+    created: "2026-07-15T17:53:32.745401973Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2279,7 +2305,7 @@ entries:
     version: 1.8.50-15833.87eb538e
   - apiVersion: v2
     appVersion: 1.8.50-15824.04b6d334
-    created: "2026-07-15T09:42:12.491907767Z"
+    created: "2026-07-15T17:53:32.744942907Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2292,7 +2318,7 @@ entries:
     version: 1.8.50-15824.04b6d334
   - apiVersion: v2
     appVersion: 1.8.49-15818.32bb03a9
-    created: "2026-07-15T09:42:12.49117893Z"
+    created: "2026-07-15T17:53:32.744487558Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2305,7 +2331,7 @@ entries:
     version: 1.8.49-15818.32bb03a9
   - apiVersion: v2
     appVersion: 1.8.49-15807.3dc9c2d2
-    created: "2026-07-15T09:42:12.482571281Z"
+    created: "2026-07-15T17:53:32.744011148Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2318,7 +2344,7 @@ entries:
     version: 1.8.49-15807.3dc9c2d2
   - apiVersion: v2
     appVersion: 1.8.48-15804.c53ef92a
-    created: "2026-07-15T09:42:12.481830588Z"
+    created: "2026-07-15T17:53:32.74355042Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2331,7 +2357,7 @@ entries:
     version: 1.8.48-15804.c53ef92a
   - apiVersion: v2
     appVersion: 1.8.48-15796.a49c84f8
-    created: "2026-07-15T09:42:12.479072882Z"
+    created: "2026-07-15T17:53:32.743059342Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2344,7 +2370,7 @@ entries:
     version: 1.8.48-15796.a49c84f8
   - apiVersion: v2
     appVersion: 1.8.47-15792.95c84a1e
-    created: "2026-07-15T09:42:12.477905862Z"
+    created: "2026-07-15T17:53:32.742572818Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2357,7 +2383,7 @@ entries:
     version: 1.8.47-15792.95c84a1e
   - apiVersion: v2
     appVersion: 1.8.45-15790.c287ee92
-    created: "2026-07-15T09:42:12.476788861Z"
+    created: "2026-07-15T17:53:32.741895482Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2370,7 +2396,7 @@ entries:
     version: 1.8.45-15790.c287ee92
   - apiVersion: v2
     appVersion: 1.8.44-15789.d6c002fa
-    created: "2026-07-15T09:42:12.473427045Z"
+    created: "2026-07-15T17:53:32.741413295Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2383,7 +2409,7 @@ entries:
     version: 1.8.44-15789.d6c002fa
   - apiVersion: v2
     appVersion: 1.8.43-15786.9918148d
-    created: "2026-07-15T09:42:12.458719254Z"
+    created: "2026-07-15T17:53:32.740931048Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2396,7 +2422,7 @@ entries:
     version: 1.8.43-15786.9918148d
   - apiVersion: v2
     appVersion: 1.8.42-15783.58e5251d
-    created: "2026-07-15T09:42:12.457841726Z"
+    created: "2026-07-15T17:53:32.740473992Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2409,7 +2435,7 @@ entries:
     version: 1.8.42-15783.58e5251d
   - apiVersion: v2
     appVersion: 1.8.41-15776.665ab295
-    created: "2026-07-15T09:42:12.457121731Z"
+    created: "2026-07-15T17:53:32.739989112Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2422,7 +2448,7 @@ entries:
     version: 1.8.41-15776.665ab295
   - apiVersion: v2
     appVersion: 1.8.40-15770.cf1cbb36
-    created: "2026-07-15T09:42:12.456505709Z"
+    created: "2026-07-15T17:53:32.739483029Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2435,7 +2461,7 @@ entries:
     version: 1.8.40-15770.cf1cbb36
   - apiVersion: v2
     appVersion: 1.8.39-15769.ec8e86d7
-    created: "2026-07-15T09:42:12.455711663Z"
+    created: "2026-07-15T17:53:32.738973804Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2448,7 +2474,7 @@ entries:
     version: 1.8.39-15769.ec8e86d7
   - apiVersion: v2
     appVersion: 1.8.38-15768.049e16f4
-    created: "2026-07-15T09:42:12.455105938Z"
+    created: "2026-07-15T17:53:32.738479534Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2461,7 +2487,7 @@ entries:
     version: 1.8.38-15768.049e16f4
   - apiVersion: v2
     appVersion: 1.8.37-15766.abf6fc29
-    created: "2026-07-15T09:42:12.454502793Z"
+    created: "2026-07-15T17:53:32.737897615Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2474,7 +2500,7 @@ entries:
     version: 1.8.37-15766.abf6fc29
   - apiVersion: v2
     appVersion: 1.8.36-15765.9a5c6552
-    created: "2026-07-15T09:42:12.45391169Z"
+    created: "2026-07-15T17:53:32.736793322Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2487,7 +2513,7 @@ entries:
     version: 1.8.36-15765.9a5c6552
   - apiVersion: v2
     appVersion: 1.8.35-15758.6449d9d1
-    created: "2026-07-15T09:42:12.453312664Z"
+    created: "2026-07-15T17:53:32.735938564Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2500,7 +2526,7 @@ entries:
     version: 1.8.35-15758.6449d9d1
   - apiVersion: v2
     appVersion: 1.8.34-15756.20e4d278
-    created: "2026-07-15T09:42:12.45271905Z"
+    created: "2026-07-15T17:53:32.735091216Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2513,7 +2539,7 @@ entries:
     version: 1.8.34-15756.20e4d278
   - apiVersion: v2
     appVersion: 1.8.33-15755.76657854
-    created: "2026-07-15T09:42:12.452120555Z"
+    created: "2026-07-15T17:53:32.734253107Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2526,7 +2552,7 @@ entries:
     version: 1.8.33-15755.76657854
   - apiVersion: v2
     appVersion: 1.8.31-15752.93a86ffa
-    created: "2026-07-15T09:42:12.451577223Z"
+    created: "2026-07-15T17:53:32.733421323Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2539,7 +2565,7 @@ entries:
     version: 1.8.31-15752.93a86ffa
   - apiVersion: v2
     appVersion: 1.8.29-15745.68457ef1
-    created: "2026-07-15T09:42:12.450976241Z"
+    created: "2026-07-15T17:53:32.73258737Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2552,7 +2578,7 @@ entries:
     version: 1.8.29-15745.68457ef1
   - apiVersion: v2
     appVersion: 1.8.28-15734.8d03af12
-    created: "2026-07-15T09:42:12.450287468Z"
+    created: "2026-07-15T17:53:32.731595012Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2565,7 +2591,7 @@ entries:
     version: 1.8.28-15734.8d03af12
   - apiVersion: v2
     appVersion: 1.8.25-15728.44156ac2
-    created: "2026-07-15T09:42:12.449709907Z"
+    created: "2026-07-15T17:53:32.730620031Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2578,7 +2604,7 @@ entries:
     version: 1.8.25-15728.44156ac2
   - apiVersion: v2
     appVersion: 1.8.25-15715.a1eab6af
-    created: "2026-07-15T09:42:12.449090442Z"
+    created: "2026-07-15T17:53:32.727829394Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2591,7 +2617,7 @@ entries:
     version: 1.8.25-15715.a1eab6af
   - apiVersion: v2
     appVersion: 1.8.24-15708.a55e2e05
-    created: "2026-07-15T09:42:12.448454463Z"
+    created: "2026-07-15T17:53:32.727425749Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2604,7 +2630,7 @@ entries:
     version: 1.8.24-15708.a55e2e05
   - apiVersion: v2
     appVersion: 1.8.23-15699.ded04fde
-    created: "2026-07-15T09:42:12.447796771Z"
+    created: "2026-07-15T17:53:32.726995933Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2617,7 +2643,7 @@ entries:
     version: 1.8.23-15699.ded04fde
   - apiVersion: v2
     appVersion: 1.8.23-15690.f8c23cca
-    created: "2026-07-15T09:42:12.447148177Z"
+    created: "2026-07-15T17:53:32.726464321Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2630,7 +2656,7 @@ entries:
     version: 1.8.23-15690.f8c23cca
   - apiVersion: v2
     appVersion: 1.8.23-15686.05dcefca
-    created: "2026-07-15T09:42:12.446526748Z"
+    created: "2026-07-15T17:53:32.726107132Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2643,7 +2669,7 @@ entries:
     version: 1.8.23-15686.05dcefca
   - apiVersion: v2
     appVersion: 1.8.23-15685.f1a94ffe
-    created: "2026-07-15T09:42:12.445914453Z"
+    created: "2026-07-15T17:53:32.725800168Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2656,7 +2682,7 @@ entries:
     version: 1.8.23-15685.f1a94ffe
   - apiVersion: v2
     appVersion: 1.8.23-15684.ca4ac8eb
-    created: "2026-07-15T09:42:12.445303639Z"
+    created: "2026-07-15T17:53:32.725533855Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2669,7 +2695,7 @@ entries:
     version: 1.8.23-15684.ca4ac8eb
   - apiVersion: v2
     appVersion: 1.8.23-15681.d6f9895c
-    created: "2026-07-15T09:42:12.444678359Z"
+    created: "2026-07-15T17:53:32.725246116Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2682,7 +2708,7 @@ entries:
     version: 1.8.23-15681.d6f9895c
   - apiVersion: v2
     appVersion: 1.8.23-15675.6caa4ee8
-    created: "2026-07-15T09:42:12.444055594Z"
+    created: "2026-07-15T17:53:32.724985403Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2695,7 +2721,7 @@ entries:
     version: 1.8.23-15675.6caa4ee8
   - apiVersion: v2
     appVersion: 1.8.22-15671.c65d6416
-    created: "2026-07-15T09:42:12.443371725Z"
+    created: "2026-07-15T17:53:32.724702424Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2708,7 +2734,7 @@ entries:
     version: 1.8.22-15671.c65d6416
   - apiVersion: v2
     appVersion: 1.8.22-15668.466d5c75
-    created: "2026-07-15T09:42:12.442019957Z"
+    created: "2026-07-15T17:53:32.724436909Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2721,7 +2747,7 @@ entries:
     version: 1.8.22-15668.466d5c75
   - apiVersion: v2
     appVersion: 1.8.21-15664.eb814b56
-    created: "2026-07-15T09:42:12.440134195Z"
+    created: "2026-07-15T17:53:32.724139676Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2734,7 +2760,7 @@ entries:
     version: 1.8.21-15664.eb814b56
   - apiVersion: v2
     appVersion: 1.8.21-15662.56299da0
-    created: "2026-07-15T09:42:12.439413721Z"
+    created: "2026-07-15T17:53:32.723823751Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2747,7 +2773,7 @@ entries:
     version: 1.8.21-15662.56299da0
   - apiVersion: v2
     appVersion: 1.8.20-15661.20f2a2d8
-    created: "2026-07-15T09:42:12.431535057Z"
+    created: "2026-07-15T17:53:32.723572328Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2760,7 +2786,7 @@ entries:
     version: 1.8.20-15661.20f2a2d8
   - apiVersion: v2
     appVersion: 1.8.18-15652.68d65349
-    created: "2026-07-15T09:42:12.425402258Z"
+    created: "2026-07-15T17:53:32.723302321Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2773,7 +2799,7 @@ entries:
     version: 1.8.18-15652.68d65349
   - apiVersion: v2
     appVersion: 1.8.17-15649.75bfc896
-    created: "2026-07-15T09:42:12.423224883Z"
+    created: "2026-07-15T17:53:32.723017389Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2786,7 +2812,7 @@ entries:
     version: 1.8.17-15649.75bfc896
   - apiVersion: v2
     appVersion: 1.8.16-15644.f97c43c9
-    created: "2026-07-15T09:42:12.422641126Z"
+    created: "2026-07-15T17:53:32.722752102Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2799,7 +2825,7 @@ entries:
     version: 1.8.16-15644.f97c43c9
   - apiVersion: v2
     appVersion: 1.8.15-15595.1e32d982
-    created: "2026-07-15T09:42:12.421948452Z"
+    created: "2026-07-15T17:53:32.72247226Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2812,7 +2838,7 @@ entries:
     version: 1.8.15-15595.1e32d982
   - apiVersion: v2
     appVersion: 1.8.14-15589.c4269675
-    created: "2026-07-15T09:42:12.414525285Z"
+    created: "2026-07-15T17:53:32.722164842Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2825,7 +2851,7 @@ entries:
     version: 1.8.14-15589.c4269675
   - apiVersion: v2
     appVersion: 1.8.13-15560.93929abd
-    created: "2026-07-15T09:42:12.40727253Z"
+    created: "2026-07-15T17:53:32.721823055Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2838,7 +2864,7 @@ entries:
     version: 1.8.13-15560.93929abd
   - apiVersion: v2
     appVersion: 1.8.13-15556.03e0f1c0
-    created: "2026-07-15T09:42:12.401529183Z"
+    created: "2026-07-15T17:53:32.721357134Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2851,7 +2877,7 @@ entries:
     version: 1.8.13-15556.03e0f1c0
   - apiVersion: v2
     appVersion: 1.8.13-15535.ef5cd874
-    created: "2026-07-15T09:42:12.400919268Z"
+    created: "2026-07-15T17:53:32.720932783Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2864,7 +2890,7 @@ entries:
     version: 1.8.13-15535.ef5cd874
   - apiVersion: v2
     appVersion: 1.8.13-15533.83d6a4cf
-    created: "2026-07-15T09:42:12.400405149Z"
+    created: "2026-07-15T17:53:32.720575691Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2877,7 +2903,7 @@ entries:
     version: 1.8.13-15533.83d6a4cf
   - apiVersion: v2
     appVersion: 1.8.9-15527.21448b0b
-    created: "2026-07-15T09:42:12.623092977Z"
+    created: "2026-07-15T17:53:32.775886058Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2890,7 +2916,7 @@ entries:
     version: 1.8.9-15527.21448b0b
   - apiVersion: v2
     appVersion: 1.8.7-15495.75808134
-    created: "2026-07-15T09:42:12.606039101Z"
+    created: "2026-07-15T17:53:32.766252157Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2903,7 +2929,7 @@ entries:
     version: 1.8.7-15495.75808134
   - apiVersion: v2
     appVersion: 1.8.7-15452.78d3b4e4
-    created: "2026-07-15T09:42:12.60535328Z"
+    created: "2026-07-15T17:53:32.765882451Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2916,7 +2942,7 @@ entries:
     version: 1.8.7-15452.78d3b4e4
   - apiVersion: v2
     appVersion: 1.8.7-15449.e87de493
-    created: "2026-07-15T09:42:12.604627552Z"
+    created: "2026-07-15T17:53:32.765651271Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2929,7 +2955,7 @@ entries:
     version: 1.8.7-15449.e87de493
   - apiVersion: v2
     appVersion: 1.8.7-15446.c91ce499
-    created: "2026-07-15T09:42:12.60364895Z"
+    created: "2026-07-15T17:53:32.765385872Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2942,7 +2968,7 @@ entries:
     version: 1.8.7-15446.c91ce499
   - apiVersion: v2
     appVersion: 1.8.7-15445.cfd752ee
-    created: "2026-07-15T09:42:12.603178145Z"
+    created: "2026-07-15T17:53:32.764560242Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2955,7 +2981,7 @@ entries:
     version: 1.8.7-15445.cfd752ee
   - apiVersion: v2
     appVersion: 1.8.7-15441.7d9b6cc6
-    created: "2026-07-15T09:42:12.602751511Z"
+    created: "2026-07-15T17:53:32.763495586Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2968,7 +2994,7 @@ entries:
     version: 1.8.7-15441.7d9b6cc6
   - apiVersion: v2
     appVersion: 1.8.7-15432.c672755b
-    created: "2026-07-15T09:42:12.602258385Z"
+    created: "2026-07-15T17:53:32.763220035Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2981,7 +3007,7 @@ entries:
     version: 1.8.7-15432.c672755b
   - apiVersion: v2
     appVersion: 1.8.7-15431.2a1b9d3b
-    created: "2026-07-15T09:42:12.601764018Z"
+    created: "2026-07-15T17:53:32.762928502Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -2994,7 +3020,7 @@ entries:
     version: 1.8.7-15431.2a1b9d3b
   - apiVersion: v2
     appVersion: 1.8.6-15425.24f72568
-    created: "2026-07-15T09:42:12.533316476Z"
+    created: "2026-07-15T17:53:32.755636234Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -3007,7 +3033,7 @@ entries:
     version: 1.8.6-15425.24f72568
   - apiVersion: v2
     appVersion: 1.8.6-15414.e6e9ce9f
-    created: "2026-07-15T09:42:12.532799846Z"
+    created: "2026-07-15T17:53:32.755403302Z"
     description: 'Cluster-scoped prerequisites for cdn-gateway-orc8r. Install once
       per cluster/namespace with admin credentials before installing cdn-gateway-orc8r.
       Contains ClusterRoles, ClusterRoleBindings, and GatewayClass that blockcastd''s
@@ -3020,8 +3046,25 @@ entries:
     version: 1.8.6-15414.e6e9ce9f
   secret-substrate:
   - apiVersion: v2
+    appVersion: 1.8.81-16225.7af1e4fb
+    created: "2026-07-15T17:53:32.993737102Z"
+    dependencies:
+    - name: vault
+      repository: https://helm.releases.hashicorp.com
+      version: 0.30.1
+    - name: external-secrets
+      repository: https://charts.external-secrets.io
+      version: 0.18.2
+    description: Vault and External Secrets substrate for operator-run Blockcast PoPs
+    digest: 30d81d0b474d54d18d56665aecfcc2d1af39de5c3121274c137243be1c6d42b2
+    name: secret-substrate
+    type: application
+    urls:
+    - https://blockcast.github.io/helm-charts/beta/secret-substrate-1.8.81-16225.7af1e4fb.tgz
+    version: 1.8.81-16225.7af1e4fb
+  - apiVersion: v2
     appVersion: 1.8.81-16221.e1e229fd
-    created: "2026-07-15T09:42:13.21246938Z"
+    created: "2026-07-15T17:53:32.972815436Z"
     dependencies:
     - name: vault
       repository: https://helm.releases.hashicorp.com
@@ -3038,7 +3081,7 @@ entries:
     version: 1.8.81-16221.e1e229fd
   - apiVersion: v2
     appVersion: 1.8.80-16219.48faf279
-    created: "2026-07-15T09:42:13.165830268Z"
+    created: "2026-07-15T17:53:32.948153864Z"
     dependencies:
     - name: vault
       repository: https://helm.releases.hashicorp.com
@@ -3055,7 +3098,7 @@ entries:
     version: 1.8.80-16219.48faf279
   - apiVersion: v2
     appVersion: 1.8.80-16218.6ea9a32a
-    created: "2026-07-15T09:42:13.114363996Z"
+    created: "2026-07-15T17:53:32.91930655Z"
     dependencies:
     - name: vault
       repository: https://helm.releases.hashicorp.com
@@ -3072,7 +3115,7 @@ entries:
     version: 1.8.80-16218.6ea9a32a
   - apiVersion: v2
     appVersion: 1.8.80-16217.efb397c1
-    created: "2026-07-15T09:42:13.066425649Z"
+    created: "2026-07-15T17:53:32.892863744Z"
     dependencies:
     - name: vault
       repository: https://helm.releases.hashicorp.com
@@ -3089,7 +3132,7 @@ entries:
     version: 1.8.80-16217.efb397c1
   - apiVersion: v2
     appVersion: 1.8.78-16209.34c8032b
-    created: "2026-07-15T09:42:13.037030856Z"
+    created: "2026-07-15T17:53:32.867878148Z"
     dependencies:
     - name: vault
       repository: https://helm.releases.hashicorp.com
@@ -3106,7 +3149,7 @@ entries:
     version: 1.8.78-16209.34c8032b
   - apiVersion: v2
     appVersion: 1.8.77-16199.8b672ae8
-    created: "2026-07-15T09:42:12.860522829Z"
+    created: "2026-07-15T17:53:32.844239503Z"
     dependencies:
     - name: vault
       repository: https://helm.releases.hashicorp.com
@@ -3123,7 +3166,7 @@ entries:
     version: 1.8.77-16199.8b672ae8
   - apiVersion: v2
     appVersion: 1.8.77-16193.b0459be3
-    created: "2026-07-15T09:42:12.762551994Z"
+    created: "2026-07-15T17:53:32.816532312Z"
     dependencies:
     - name: vault
       repository: https://helm.releases.hashicorp.com
@@ -3140,7 +3183,7 @@ entries:
     version: 1.8.77-16193.b0459be3
   - apiVersion: v2
     appVersion: 1.8.76-16192.94bc0076
-    created: "2026-07-15T09:42:12.732446926Z"
+    created: "2026-07-15T17:53:32.79431164Z"
     dependencies:
     - name: vault
       repository: https://helm.releases.hashicorp.com
@@ -3155,4 +3198,4 @@ entries:
     urls:
     - https://blockcast.github.io/helm-charts/beta/secret-substrate-1.8.76-16192.94bc0076.tgz
     version: 1.8.76-16192.94bc0076
-generated: "2026-07-15T09:42:08.374235921Z"
+generated: "2026-07-15T17:53:31.029744625Z"
