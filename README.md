@@ -22,7 +22,18 @@ There are two release tracks:
   ```bash
   kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.2.0/experimental-install.yaml
   ```
-- **Cilium** — by default the chart renders an egress `CiliumNetworkPolicy` (`cilium.io/v2`) for the device-export collector. Published chart versions from `1.8.109` onward do not check whether the cluster serves that API. On a cluster without Cilium (kind, k3s, k3d, microk8s, minikube's default CNI, most managed clusters' default networking), the install fails with `no matches for kind "CiliumNetworkPolicy"` (see [Troubleshooting](#no-matches-for-kind-ciliumnetworkpolicy-in-version-ciliumiov2)) unless you turn the policy off in your values file:
+- **Cilium (optional)** — the chart includes an egress `CiliumNetworkPolicy` (`cilium.io/v2`) for the device-export collector. From chart `1.8.186-17424.3dc9fcda` (beta channel; the stable channel picks it up at its next release cut) it is installed only when the cluster serves `ciliumnetworkpolicies.cilium.io`. On any other cluster (kind, k3s, k3d, microk8s, minikube's default CNI, most managed clusters' default networking) it is skipped, the install succeeds, and Helm prints:
+
+  ```
+  WARNING: device-export egress policy NOT installed.
+    deviceExport.egressPolicy.enabled is true, but this cluster does not serve
+    the cilium.io/v2/CiliumNetworkPolicy API (Cilium is not installed), so the
+    CiliumNetworkPolicy blockcastd-device-export-egress was skipped.
+    The gateway runs normally without it. To silence this warning on a cluster
+    without Cilium, set deviceExport.egressPolicy.enabled=false.
+  ```
+
+  Chart versions from `1.8.109` up to (not including) `1.8.186-17424.3dc9fcda` do not check for Cilium: on a cluster without it the install fails with `no matches for kind "CiliumNetworkPolicy"` (see [Troubleshooting](#no-matches-for-kind-ciliumnetworkpolicy-in-version-ciliumiov2)). On those versions, or to silence the warning, turn the policy off in your values file:
 
   ```yaml
   deviceExport:
@@ -30,7 +41,7 @@ There are two release tracks:
       enabled: false
   ```
 
-  The gateway runs normally without this policy. The other Cilium resources in the chart (`cast.tailscale.enabled`, `multicast.egressBgpAnchor.enabled`) are off by default, and enabling them also requires Cilium.
+  The gateway runs normally without this policy. The other Cilium resources in the chart (`cast.tailscale.enabled`, `multicast.egressBgpAnchor.enabled`, `relay.egress.enabled`) are off by default, and enabling them also requires Cilium.
 - **Release name alignment** — the prereqs chart's `ClusterRoleBinding` subjects must match the gateway release's `ServiceAccount`. The prereqs `releaseName` value **must** match the gateway release name used in Step 2. The default `blockcastd` works as long as you don't override the gateway release name.
 
 ---
@@ -179,7 +190,7 @@ Error: unable to build kubernetes objects from release manifest: resource mappin
 ensure CRDs are installed first
 ```
 
-The cluster does not run Cilium, and the chart (versions `1.8.109` and later) renders the device-export egress policy by default without checking for Cilium. Nothing was installed. Turn the policy off:
+The cluster does not run Cilium, and the chart (versions `1.8.109` up to (not including) `1.8.186-17424.3dc9fcda`) renders the device-export egress policy by default without checking for Cilium. Nothing was installed. Either install a chart that skips the policy on clusters without Cilium (beta `1.8.186-17424.3dc9fcda` or later; stable from its next release cut), or turn the policy off:
 
 ```bash
 helm upgrade blockcastd blockcast/cdn-gateway -n <your-namespace> --devel \
