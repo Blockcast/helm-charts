@@ -22,6 +22,15 @@ There are two release tracks:
   ```bash
   kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.2.0/experimental-install.yaml
   ```
+- **Cilium** — by default the chart renders an egress `CiliumNetworkPolicy` (`cilium.io/v2`) for the device-export collector. Published chart versions from `1.8.109` onward do not check whether the cluster serves that API. On a cluster without Cilium (kind, k3s, k3d, microk8s, minikube's default CNI, most managed clusters' default networking), the install fails with `no matches for kind "CiliumNetworkPolicy"` (see [Troubleshooting](#no-matches-for-kind-ciliumnetworkpolicy-in-version-ciliumiov2)) unless you turn the policy off in your values file:
+
+  ```yaml
+  deviceExport:
+    egressPolicy:
+      enabled: false
+  ```
+
+  The gateway runs normally without this policy. The other Cilium resources in the chart (`cast.tailscale.enabled`, `multicast.egressBgpAnchor.enabled`) are off by default, and enabling them also requires Cilium.
 - **Release name alignment** — the prereqs chart's `ClusterRoleBinding` subjects must match the gateway release's `ServiceAccount`. The prereqs `releaseName` value **must** match the gateway release name used in Step 2. The default `blockcastd` works as long as you don't override the gateway release name.
 
 ---
@@ -162,6 +171,22 @@ If either is empty, re-run [Step 1](#step-1--install-cluster-prerequisites-admin
 ```bash
 kubectl rollout restart deployment/blockcastd-relay -n <your-namespace>
 ```
+
+### `no matches for kind "CiliumNetworkPolicy" in version "cilium.io/v2"`
+
+```
+Error: unable to build kubernetes objects from release manifest: resource mapping not found for name: "blockcastd-device-export-egress" namespace: "" from "": no matches for kind "CiliumNetworkPolicy" in version "cilium.io/v2"
+ensure CRDs are installed first
+```
+
+The cluster does not run Cilium, and the chart (versions `1.8.109` and later) renders the device-export egress policy by default without checking for Cilium. Nothing was installed. Turn the policy off:
+
+```bash
+helm upgrade blockcastd blockcast/cdn-gateway -n <your-namespace> --devel \
+  --reset-then-reuse-values --set deviceExport.egressPolicy.enabled=false
+```
+
+`--reset-then-reuse-values` needs Helm 3.14+. Do not use `--reuse-values` here: it applies the old chart's defaults to the new chart. For a first install, use `helm upgrade --install` with your usual `-f` values file plus `--set deviceExport.egressPolicy.enabled=false`.
 
 ### `helm search repo` returns no results
 
