@@ -22,6 +22,24 @@ There are two release tracks:
   ```bash
   kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.2.0/experimental-install.yaml
   ```
+- **Cilium (optional)** — the chart includes an egress `CiliumNetworkPolicy` for the device-export collector. It is installed only when the cluster serves `ciliumnetworkpolicies.cilium.io` (`cilium.io/v2`). On any other cluster (kind, k3s, k3d, microk8s, minikube's default CNI, most managed clusters' default networking) it is skipped, the install succeeds, and Helm prints this note:
+
+  ```
+  WARNING: device-export egress policy NOT installed.
+    deviceExport.egressPolicy.enabled is true, but this cluster does not serve
+    the cilium.io/v2/CiliumNetworkPolicy API (Cilium is not installed), so the
+    CiliumNetworkPolicy blockcastd-device-export-egress was skipped.
+    The gateway runs normally without it. To silence this warning on a cluster
+    without Cilium, set deviceExport.egressPolicy.enabled=false.
+  ```
+
+  To silence it, add this to your values file:
+
+  ```yaml
+  deviceExport:
+    egressPolicy:
+      enabled: false
+  ```
 - **Release name alignment** — the prereqs chart's `ClusterRoleBinding` subjects must match the gateway release's `ServiceAccount`. The prereqs `releaseName` value **must** match the gateway release name used in Step 2. The default `blockcastd` works as long as you don't override the gateway release name.
 
 ---
@@ -162,6 +180,22 @@ If either is empty, re-run [Step 1](#step-1--install-cluster-prerequisites-admin
 ```bash
 kubectl rollout restart deployment/blockcastd-relay -n <your-namespace>
 ```
+
+### `no matches for kind "CiliumNetworkPolicy" in version "cilium.io/v2"`
+
+```
+Error: unable to build kubernetes objects from release manifest: resource mapping not found for name: "blockcastd-device-export-egress" namespace: "" from "": no matches for kind "CiliumNetworkPolicy" in version "cilium.io/v2"
+ensure CRDs are installed first
+```
+
+The cluster does not run Cilium, and the chart version renders the device-export egress policy without checking for it (chart versions from `1.8.109` until the Cilium check was added). Nothing was installed. Either install the current chart, which skips the policy on clusters without Cilium, or turn the policy off:
+
+```bash
+helm upgrade blockcastd blockcast/cdn-gateway -n <your-namespace> --devel \
+  --reset-then-reuse-values --set deviceExport.egressPolicy.enabled=false
+```
+
+`--reset-then-reuse-values` needs Helm 3.14+. Do not use `--reuse-values` here: it applies the old chart's defaults to the new chart. For a first install, use `helm upgrade --install` with your usual `-f` values file plus `--set deviceExport.egressPolicy.enabled=false`.
 
 ### `helm search repo` returns no results
 
